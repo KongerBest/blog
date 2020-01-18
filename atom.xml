@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://konghuaiqing.github.io/"/>
-  <updated>2020-01-16T12:23:04.284Z</updated>
+  <updated>2020-01-18T01:59:57.913Z</updated>
   <id>http://konghuaiqing.github.io/</id>
   
   <author>
@@ -17,9 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>光追版我的世界，心动了?</title>
+    <link href="http://konghuaiqing.github.io/posts/44194/"/>
+    <id>http://konghuaiqing.github.io/posts/44194/</id>
+    <published>2020-01-18T01:53:21.000Z</published>
+    <updated>2020-01-18T01:59:57.913Z</updated>
+    
+    <content type="html"><![CDATA[<p>《我的世界》作为一款09年推出的游戏，凭借出色的游戏性获得了众多玩家的喜爱，玩家可以在游戏中创建自己的牧场，开开心心的放羊、养鸡，非常开心。不过这款游戏的画面可以说是完全就是马赛克，毕竟是个基于JAVA开发的游戏，而且大小只有100多M。</p><p><img src="https://n.sinaimg.cn/spider2020117/38/w550h288/20200117/e375-inhcyca4710675.jpg" alt="img"></p><p>对于这款游戏的画面，我想玩家们的平均恐怕都是仅仅能看，不过《我的世界》中拥有丰富的材质，很多玩家都为这款游戏推出了定制的材质增强包，以提升游戏的画面。而在GTC 2019上，NVIDIA发布了全新的宣传片，Windows 10版本的《我的世界》将加入RTX实时光线追踪技术，为《我的世界》的玩家们带来不一样的世界！</p><p><img src="https://n.sinaimg.cn/spider2020117/201/w640h361/20200117/cc41-inhcyca4710676.jpg" alt="img"></p><p>《我的世界》光追效果展示</p><p>上图为NVIDIA放出的《我的世界》开启RTX实时光线追踪技术后的效果。说实话，如果有人拿着这张图说是《我的世界》的游戏截图，大家平心而论会相信么？不如说是NVIDIA的RTX实时光线追踪技术的展示DEMO吧。其实，这是得益于《我的世界》中拥有丰富的材质，RTX实时光线追踪技术通过计算各种材质的反光度，从而实现了提升材质质感并计算出最真实的光影效果。</p><p><img src="https://n.sinaimg.cn/spider2020117/488/w312h176/20200117/661e-inhcyca4710717.jpg" alt="img"></p><p><img src="https://n.sinaimg.cn/spider2020117/488/w312h176/20200117/262e-inhcyca4710719.jpg" alt="img"></p><p><img src="https://n.sinaimg.cn/spider2020117/200/w640h360/20200117/30ca-inhcyca4710767.jpg" alt="img"></p><p>大家来看这组对比，可以清楚的看到右侧打开RTX实时光线追踪技术后的游戏画面充满了质感，光线透过植物、雾气投射下来，所有的光影效果都如同在真实世界一般。大家仔细看木质围栏的底部阴影和画面左侧植物叶片上的光影效果，几乎与真实世界无二。</p><p><img src="https://n.sinaimg.cn/spider2020117/488/w312h176/20200117/1e3e-inhcyca4710762.jpg" alt="img"></p><p><img src="https://n.sinaimg.cn/spider2020117/488/w312h176/20200117/fb8f-inhcyca4710810.jpg" alt="img"></p><p><img src="https://n.sinaimg.cn/spider2020117/200/w640h360/20200117/d3a3-inhcyca4710812.jpg" alt="img"></p><p>在第二组对比中，在开启光追后的画面整体显得更加真实，光线投射在山谷中，同时两侧岩壁的质感提升非常大，地面与岩壁上光线的折射效果也极大的提升了玩家们在游戏中的沉浸感。</p><p><img src="https://n.sinaimg.cn/spider2020117/488/w312h176/20200117/d5b6-inhcyca4710868.jpg" alt="img"></p><p><img src="https://n.sinaimg.cn/spider2020117/488/w312h176/20200117/5ae5-inhcyca4710869.jpg" alt="img"></p><p><img src="https://n.sinaimg.cn/spider2020117/200/w640h360/20200117/4d8b-inhcyca4710905.jpg" alt="img"></p><p>而在这个场景中，光线透过窗户照射到彩色的地毯上，同时建筑物的各种材质的质感也有明显提升。同时，整体画面较未开启光追时的观感有极大的提升。</p><p>这便是NVIDIA引以为傲的RTX实时光线追踪技术带来的惊人效果。相较传统的光栅化贴图渲染，RTX实时光线追踪技术借助NVIDIA先进的图灵架构中RT Core，根据材质的反光度来计算光影效果，从而实现了如此接近真实世界的光影效果。另外，RTX实时光线追踪技术必须使用DX 12环境才能开启，也就是说《我的世界》将不再基于JAVA，而是使用DX 12环境。</p><p><img src="https://n.sinaimg.cn/spider2020117/200/w640h360/20200117/5a27-inhcyca4710896.jpg" alt="img"></p><p>《我的世界》光追效果展示</p><p>当然，想要得到最好的光追效果，NVIDIA的RTX系列显卡自然少不了，而在GTC 2019上已经公布，Windows 10版本《我的世界》将在今年更新，加入RTX实时光线追踪技术。这样完美的画面，相比对显卡的压力不会太小，那么微星魔龙RTX 2060 SUPER GAMING X显卡自然不可缺少。</p><p><img src="https://n.sinaimg.cn/spider2020117/320/w640h480/20200117/4888-inhcyca4710943.jpg" alt="img"></p><p>微星魔龙RTX 2060 SUPER GAMING X显卡</p><p>款微星GeForce RTX 2060 SUPER GAMING X采用图灵架构的TU106-410芯片，相较公版1650MHz的频率，这款显卡做了出厂超频，Boost频率为1695MHz，拥有2176个CUDA核心、136组纹理单元、64组光栅单元、272个TENSOR核心和34个RT核心。显存为8GB GDDR6显存，带宽为256bit。保证在1080p画质下畅玩开启RTX实时光线追踪技术的3A大作！目前这款显卡在京东的售价为3599元，心动的朋友不妨就入手吧！</p><p><img src="https://n.sinaimg.cn/spider2020117/175/w100h75/20200117/cab2-inhcyca4710941.jpg" alt="img"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;《我的世界》作为一款09年推出的游戏，凭借出色的游戏性获得了众多玩家的喜爱，玩家可以在游戏中创建自己的牧场，开开心心的放羊、养鸡，非常开心。不过这款游戏的画面可以说是完全就是马赛克，毕竟是个基于JAVA开发的游戏，而且大小只有100多M。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="游戏" scheme="http://konghuaiqing.github.io/categories/%E6%B8%B8%E6%88%8F/"/>
+    
+    
+      <category term="Windows" scheme="http://konghuaiqing.github.io/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
     <title>那些有趣的注释，有没有你曾用过的</title>
-    <link href="http://konghuaiqing.github.io/2020/01/16/%E9%82%A3%E4%BA%9B%E6%9C%89%E8%B6%A3%E7%9A%84%E6%B3%A8%E9%87%8A%EF%BC%8C%E6%9C%89%E6%B2%A1%E6%9C%89%E4%BD%A0%E6%9B%BE%E7%94%A8%E8%BF%87%E7%9A%84/"/>
-    <id>http://konghuaiqing.github.io/2020/01/16/%E9%82%A3%E4%BA%9B%E6%9C%89%E8%B6%A3%E7%9A%84%E6%B3%A8%E9%87%8A%EF%BC%8C%E6%9C%89%E6%B2%A1%E6%9C%89%E4%BD%A0%E6%9B%BE%E7%94%A8%E8%BF%87%E7%9A%84/</id>
+    <link href="http://konghuaiqing.github.io/posts/10798/"/>
+    <id>http://konghuaiqing.github.io/posts/10798/</id>
     <published>2020-01-16T11:47:50.000Z</published>
     <updated>2020-01-16T12:23:04.284Z</updated>
     
@@ -46,8 +73,8 @@
   
   <entry>
     <title>Pure主题使用指南</title>
-    <link href="http://konghuaiqing.github.io/2020/01/16/Pure%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
-    <id>http://konghuaiqing.github.io/2020/01/16/Pure%E4%B8%BB%E9%A2%98%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</id>
+    <link href="http://konghuaiqing.github.io/posts/44804/"/>
+    <id>http://konghuaiqing.github.io/posts/44804/</id>
     <published>2020-01-16T04:39:21.000Z</published>
     <updated>2020-01-16T12:23:04.280Z</updated>
     
@@ -72,8 +99,8 @@
   
   <entry>
     <title>Typora编辑软件</title>
-    <link href="http://konghuaiqing.github.io/2020/01/14/%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%BC%96%E8%BE%91%E8%BD%AF%E4%BB%B6%EF%BC%9ATypora/"/>
-    <id>http://konghuaiqing.github.io/2020/01/14/%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%BC%96%E8%BE%91%E8%BD%AF%E4%BB%B6%EF%BC%9ATypora/</id>
+    <link href="http://konghuaiqing.github.io/posts/3315/"/>
+    <id>http://konghuaiqing.github.io/posts/3315/</id>
     <published>2020-01-14T08:53:00.000Z</published>
     <updated>2020-01-17T12:58:57.035Z</updated>
     
@@ -98,8 +125,8 @@
   
   <entry>
     <title>制作html烟花特效</title>
-    <link href="http://konghuaiqing.github.io/2020/01/13/%E6%95%99%E4%BD%A0%E5%88%B6%E4%BD%9C%E7%82%AB%E9%85%B7%E7%9A%84html%E7%83%9F%E8%8A%B1%E7%89%B9%E6%95%88/"/>
-    <id>http://konghuaiqing.github.io/2020/01/13/%E6%95%99%E4%BD%A0%E5%88%B6%E4%BD%9C%E7%82%AB%E9%85%B7%E7%9A%84html%E7%83%9F%E8%8A%B1%E7%89%B9%E6%95%88/</id>
+    <link href="http://konghuaiqing.github.io/posts/29606/"/>
+    <id>http://konghuaiqing.github.io/posts/29606/</id>
     <published>2020-01-13T15:34:30.000Z</published>
     <updated>2020-01-17T12:59:21.397Z</updated>
     
@@ -124,8 +151,8 @@
   
   <entry>
     <title>测试</title>
-    <link href="http://konghuaiqing.github.io/2020/01/12/%E6%B5%8B%E8%AF%95/"/>
-    <id>http://konghuaiqing.github.io/2020/01/12/%E6%B5%8B%E8%AF%95/</id>
+    <link href="http://konghuaiqing.github.io/posts/37773/"/>
+    <id>http://konghuaiqing.github.io/posts/37773/</id>
     <published>2020-01-12T05:52:20.000Z</published>
     <updated>2020-01-16T12:23:04.282Z</updated>
     
