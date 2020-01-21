@@ -26,7 +26,7 @@
 <meta property="og:description" content="Hexo 约有二十个命令，但普通用户经常使用的大概只有下列几个: hexo s1$ hexo s  启动本地服务器用于预览主题。默认地址： http:&#x2F;&#x2F;localhost:4000&#x2F;  hexo s 是 hexo server 的缩写，命令效果一致； 预览的同时可以修改文章内容或主题代码，保存后刷新页面即可； 对 Hexo 根目录 _config.yml 的修改，需要重启本地服务器后才能预览效果">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-01-21T02:25:45.000Z">
-<meta property="article:modified_time" content="2020-01-21T02:32:37.621Z">
+<meta property="article:modified_time" content="2020-01-21T02:34:41.409Z">
 <meta property="article:author" content="孔怀庆">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
@@ -413,7 +413,7 @@
     
   <section id="comments">
   	
-      <div id="uyan_frame"></div>
+      <div id="vcomments"></div>
     
   </section>
 
@@ -586,8 +586,29 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
    
     
-    <script defer type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=[object Object]"></script>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/valine"></script>
+  <script type="text/javascript">
+  var GUEST = ['nick', 'mail', 'link'];
+  var meta = 'nick,mail,link';
+  meta = meta.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#vcomments',
+    verify: false,
+    notify: false,
+    appId: 'sEh8sNfbNrJdgH6WGzQDmRQ2-gzGzoHsz# your leancloud application appid',
+    appKey: 'BG0ccp1LTYTuLV0AkFb65xTY# your leancloud application appkey',
+    placeholder: '请发表您的评论！',
+    avatar: 'mm',
+    meta: meta,
+    pageSize: '10' || 10,
+    visitor: false
+  });
+  </script>
 
+     
 
 
 
