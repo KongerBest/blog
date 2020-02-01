@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0149)file:///C:/Users/%E5%AD%94%E6%80%80%E5%BA%86/Desktop/%E6%B1%89%E5%AD%97%E8%BD%AC%E6%8B%BC%E9%9F%B3_%E6%87%92%E4%BA%BA%E5%B7%A5%E5%85%B7%E7%AE%B1.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" class="hb-loaded"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+
+<title>汉字转拼音小工具</title>
+
+<link rel="stylesheet" type="text/css" href="./index_files/a.css">
+<script type="text/javascript" async="" src="./index_files/auto_ds"></script><script src="./index_files/push.js.下载"></script><script type="text/javascript" async="" src="./index_files/2e4d96dca598a574c650.js.下载"></script><script type="text/javascript" async="" src="./index_files/auto_ds(1)"></script><script id="huaban_share_script" async="" charset="utf-8" src="./index_files/pinmarklet.js.下载"></script><script id="huaban_share_script" async="" charset="utf-8" src="./index_files/pinmarklet.js.下载"></script><script src="./index_files/hm.js.下载"></script><script id="huaban_share_script" async="" charset="utf-8" src="./index_files/pinmarklet.js.下载"></script><script type="text/javascript" async="" src="./index_files/cm.js.下载"></script><script type="text/javascript" async="" src="./index_files/zcrm"></script><script id="huaban_share_script" async="" charset="utf-8" src="./index_files/pinmarklet.js.下载"></script><script id="huaban_share_script" async="" charset="utf-8" src="./index_files/pinmarklet.js.下载"></script><script id="huaban_share_script" async="" charset="utf-8" src="./index_files/pinmarklet.js.下载"></script><script id="huaban_share_script" async="" charset="utf-8" src="./index_files/pinmarklet.js.下载"></script><script type="text/javascript" async="" src="./index_files/zcrm(1)"></script><script id="huaban_share_script" async="" charset="utf-8" src="./index_files/pinmarklet.js.下载"></script><script type="text/javascript" async="" src="./index_files/awyczye.js.下载"></script><script type="text/javascript" async="" src="./index_files/yswaxwc.js.下载"></script><script id="huaban_share_script" async="" charset="utf-8" src="./index_files/pinmarklet.js.下载"></script><script id="huaban_share_script" async="" charset="utf-8" src="./index_files/pinmarklet.js.下载"></script><script id="huaban_share_script" async="" charset="utf-8" src="./index_files/pinmarklet.js.下载"></script><script id="huaban_share_script" async="" charset="utf-8" src="./index_files/pinmarklet.js.下载"></script><script id="huaban_share_script" async="" charset="utf-8" src="./index_files/pinmarklet.js.下载"></script><script id="huaban_share_script" async="" charset="utf-8" src="./index_files/pinmarklet.js.下载"></script><script src="./index_files/push.js(1).下载"></script><script src="./index_files/jquery.min.js.下载"></script>
+<script type="text/javascript" src="./index_files/a.js.下载"></script>
+<link rel="stylesheet" type="text/css" href="./index_files/tool.css">
+<link href="./index_files/bdsstyle.css" rel="stylesheet" type="text/css"><script src="./index_files/logger.js.下载"></script><script type="text/javascript">
+var bds_config={"bdTop":130};
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script></head>
+
+
+      <body style=""><div id="BAIDU_DUP_fp_wrapper" style="position: absolute; left: -1px; bottom: -1px; z-index: 0; width: 0px; height: 0px; overflow: hidden; visibility: hidden; display: none;"><iframe id="BAIDU_DUP_fp_iframe" src="./index_files/o.html" style="width: 0px; height: 0px; visibility: hidden; display: none;"></iframe></div><h1>  汉字转拼音</h1> 
+    
+    <!-- /title -->
+	<div class="content-a">
+    <div class="toolcode">
+<!-- /工具开始 --> 
+<script type="text/javascript" src="./index_files/pinyin.js.下载"></script>
+<script language="javascript">
+function trans(){
+	var cc=document.form1.code.value;
+	var str='',str2;
+	var s;
+	for(var i=0;i<cc.length;i++){
+	//alert(cc.charAt(i)+" = "+cc.charCodeAt(i));
+		if(pydic.indexOf(cc.charAt(i))!=-1&&cc.charCodeAt(i)>200){
+			s=1;
+			while(pydic.charAt(pydic.indexOf(cc.charAt(i))+s)!=","){
+				str+=pydic.charAt(pydic.indexOf(cc.charAt(i))+s);
+				s++;
+			}
+			str+=" ";
+		}
+		else{
+			str+=cc.charAt(i);
+		}
+	}
+	return str;
+}
+function resetAll(){
+	document.form1.code.value="";
+	document.form1.code2.value="";
+}
+//-->
+</script>
+<form name="form1">
+  <p>输入您要转换成拼音的汉语文字：</p>
+  <p>
+    <textarea rows="6" name="code" class="toolarea" style="height:160px;font-size:24px">来呀，快活呀~</textarea>
+  </p>
+  <p>
+    <input type="button" name="Submit" value="转换成拼音" class="bt-green" onclick="document.form1.code2.value=(trans())">
+    <input type="button" name="reset" value="清空" class="bt-grey" onclick="resetAll()">
+  </p><br>
+  <p>转换后的拼音对照结果：</p>
+  <p>
+    <textarea rows="6" name="code2" class="toolarea" style="height:160px;font-size:24px"></textarea>
+  </p>
+</form>
+<p>注意：本工具无法分辨多音字，请慎重使用。</p> 
+
+
+</div></div></body></html>

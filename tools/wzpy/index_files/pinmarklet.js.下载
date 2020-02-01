@@ -1,0 +1,1 @@
+!function(t,e){if(!t.HUABAN_GLOBAL&&!t.HB_PINMARKLET){t.HB_PINMARKLET=!0;var a=e.createElement("SCRIPT");a.type="text/javascript",a.async=!0,a.setAttribute("charset","utf-8"),a.src="//huaban.com/js/widgets.min.js?"+Math.floor(+new Date/1e7),e.body.appendChild(a)}}(window,document);
