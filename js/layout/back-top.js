@@ -1,0 +1,3 @@
+// build time:Sat Feb 15 2020 18:31:20 GMT+0800 (GMT+08:00)
+window.addEventListener("load",function(){(function(){var t=document.getElementById("back-top"),n=new Pack(t);if(t){n.transfrom("back-top--hidden").base("js-hidden").lastStart();function o(){var o=window.pageYOffset||document.body.scrollTop||document.documentElement.scrollTop,e=t.classList.contains("back-top--hidden")&&t.classList.contains("js-hidden");if(o>350&&e||o<350&&!e){n.toggle()}}o();document.addEventListener("scroll",o);t.addEventListener("click",function(){var t=new Amt;t.from({top:window.pageYOffset||document.body.scrollTop||document.documentElement.scrollTop}).to({top:0}).transition(1e3).on("frame",function(t){window.scrollTo(0,t.top)}).start()})}})()});
+//rebuild by neat 
