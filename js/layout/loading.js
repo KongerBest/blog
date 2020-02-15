@@ -1,3 +1,0 @@
-// build time:Sat Feb 15 2020 18:31:20 GMT+0800 (GMT+08:00)
-document.onreadystatechange=function(){var e=document.getElementById("page");if(document.readyState=="interactive"){window.setTimeout(function(){disableLoad()},4e3)}if(document.readyState=="complete"){if(e.classList.contains("js-hidden")){disableLoad()}}};function disableLoad(){var e=document.getElementById("page"),t=document.getElementById("page-loading");t.classList.add("js-hidden");e.classList.remove("js-hidden")}
-//rebuild by neat 

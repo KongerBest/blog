@@ -1,3 +1,0 @@
-// build time:Sat Feb 15 2020 18:31:20 GMT+0800 (GMT+08:00)
-function getBaseType(e){return Object.prototype.toString.apply(e).slice(8,-1)}function eachObj(e,t){for(var n in e){t(e[n],n,e)}}function getKeys(e,t){var n=[];eachObj(e,function(e,t){n.push(t)});return n.sort(t)}function extend(e,t){eachObj(t,function(t,n){e[n]=t});return e}function getPosition(e){var t=0;var n=0;if(!e.tagName){console.warn("element must be a HTML element object");return{x:null,y:null}}while(e!==document.body){t+=e.offsetLeft;n+=e.offsetTop;e=e.offsetParent}return{x:t,y:n}}
-//rebuild by neat 

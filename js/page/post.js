@@ -1,3 +1,0 @@
-// build time:Sat Feb 15 2020 18:31:20 GMT+0800 (GMT+08:00)
-window.addEventListener("load",function(){var e=document.querySelector("article.page__post");new Pack(e).base("js-ease-out-leave-active").base("js-ease-out-leave").transfrom("js-ease-out-enter-active").end(function(){var a=["js-ease-out-enter","js-ease-out-enter-active","js-ease-out-leave","js-ease-out-leave-active"];a.forEach(function(a){e.classList.remove(a)})}).toggle()});
-//rebuild by neat 
