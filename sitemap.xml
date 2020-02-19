@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ninglans.top/about/index.html</loc>
+    
+    <lastmod>2020-02-19T12:38:35.456Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ninglans.top/posts/32449/</loc>
     
     <lastmod>2020-02-01T03:53:18.173Z</lastmod>
@@ -93,13 +100,6 @@
   </url>
   
   <url>
-    <loc>http://ninglans.top/about/index.html</loc>
-    
-    <lastmod>2020-01-16T07:28:07.915Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://ninglans.top/repository/index.html</loc>
     
     <lastmod>2020-01-13T08:26:32.623Z</lastmod>
@@ -124,13 +124,6 @@
     <loc>http://ninglans.top/links/index.html</loc>
     
     <lastmod>2020-01-12T11:23:26.184Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ninglans.top/books/index.html</loc>
-    
-    <lastmod>2020-01-12T11:23:26.182Z</lastmod>
     
   </url>
   
