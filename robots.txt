@@ -10,5 +10,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: https://blog.ninglans.topsitemap.xml
+Sitemap: https://blog.ninglans.top/sitemap.xml
 Sitemap: https://blog.ninglans.top/baidusitemap.xml
