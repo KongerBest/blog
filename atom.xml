@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ninglans.top/"/>
-  <updated>2020-04-01T06:24:51.227Z</updated>
+  <updated>2020-04-02T03:14:48.215Z</updated>
   <id>https://blog.ninglans.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.ninglans.top/posts/57345/"/>
     <id>https://blog.ninglans.top/posts/57345/</id>
     <published>2020-04-01T03:50:55.000Z</published>
-    <updated>2020-04-01T06:24:51.227Z</updated>
+    <updated>2020-04-02T03:14:48.215Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>GitHub克隆下载速度超级慢，尝试了网上的几个方法都不行，什么更改hosts和转到码云下载都不管用。以下方法亲测有效，但有时候也会下载不了，没办法……</p><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>1、下载Free Download Manager，下载地址</p><p><a href="https://www.freedownloadmanager.org/" target="_blank" rel="noopener">https://www.freedownloadmanager.org/</a></p><p>2、在GitHub下载点击download zip</p><p>3、打开下载内容页面</p><p>4、鼠标右键https那个下载链接把链接复制下来</p><p>5、打开free download manager点击主菜单，点击从粘贴板粘贴链接，然后就可以下载了，快的时候几M吧，但慢的时候也挺慢的。有时会提示下载错误，多刷新几次就行了。</p><p>这个方法下载时有时半路会提示失败，这时就又需要暂停一下，刷新一下才行，心累……</p><p>然后我又找到了一个办法，直接在GitHub上download zip可以有1M多，再也不是几百b和几k了！</p><p>方法就是把git的代理删除掉。<br>打开cmd，输入<br>git config –global –unset http.proxy<br>git config –global –unset https.proxy<br>这样就可以了，速度快得飞起！</p><h1 id="End"><a href="#End" class="headerlink" title="End"></a>End</h1><p>最后，下载地址放上：</p><p><a href="https://dn3.freedownloadmanager.org/5/5.1-latest/fdm5_x64_setup.exe" target="_blank" rel="noopener">官网下载</a></p>]]></content>
     
