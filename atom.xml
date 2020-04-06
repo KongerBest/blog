@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ninglans.top/"/>
-  <updated>2020-04-06T03:51:10.712Z</updated>
+  <updated>2020-04-06T07:55:27.308Z</updated>
   <id>https://blog.ninglans.top/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>about清明</title>
+    <title>Windows仿MacUI</title>
+    <link href="https://blog.ninglans.top/posts/54711/"/>
+    <id>https://blog.ninglans.top/posts/54711/</id>
+    <published>2020-04-06T07:29:25.000Z</published>
+    <updated>2020-04-06T07:55:27.308Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天介绍一款仿 macOS UI 的软件：</p><p>——MyFinder、MyDock。</p><p>适用于装逼或是真的喜欢 macOS UI，</p><p>但因为某些原因不得不用 Windows 的用户。</p><p>先来看看软件官网效果图</p><p><img src="https://pic1.zhimg.com/80/v2-07aaecc28d603e4f4bcd3f733b58bcf4_720w.jpg" alt="img"></p><p><img src="https://pic1.zhimg.com/80/v2-764e4c289b2d87180ce0c3423097d20c_720w.jpg" alt="img"></p><p>再看看笔者实测的整体效果</p><p><img src="https://pic1.zhimg.com/80/v2-eeb86f177152009129c7bcace586dcd4_720w.jpg" alt="img"></p><p><img src="https://pic1.zhimg.com/80/v2-94418e0e0272fac40ee1a31f6c54a02c_720w.jpg" alt="img"></p><p><img src="https://pic3.zhimg.com/80/v2-b8d885d73ab6e75a03a86ca58635740a_720w.jpg" alt="img"></p><p><img src="https://pic1.zhimg.com/80/v2-0c49193461f8799e25fd12e246c5d3cc_720w.jpg" alt="img"></p><p>苹果公司于2019年 6 月发布了最新的Macintosh桌面操作系统，并于 2019 年 10 月 8 日正式推出macOS Catalina。</p><p>苹果 Newsroom 展示：</p><p><img src="https://pic3.zhimg.com/80/v2-ab2360d6ea61761475552ce333e1ff66_720w.jpg" alt="img"></p><p><a href="https://www.zhihu.com/question/349615849/answer/849187244" target="_blank" rel="noopener">结束了 iTunes 时代的 macOS Catalina 实际体验如何？</a></p><blockquote><p>macOS Catalina （版本 10.15）是苹果公司用于麦金塔计算机的桌面操作系统 macOS 的第 16 个 主要版本。它是 macOS Mojave 的继任者。Catalina 是第一个只支持 64 位应用程序的 macOS 版本。</p></blockquote><p><a href="https://zh.wikipedia.org/wiki/MacOS_Catalina" target="_blank" rel="noopener">https://zh.wikipedia.org/wiki/MacOS_Catalina</a></p><p>为什么有那么多人喜欢苹果电脑呢?</p><p>我觉得 macOS 的界面友好易用是一方面</p><p>我们看一下维基百科的描述</p><blockquote><p>尽管最重要的架构改变是在表面之下，但是 Aqua GUI 是最突出和引人注目的特色。柔软边缘的使用，半透明颜色和细条纹（与第一台 iMac 的硬件相似）把更多的颜色和材质带入到桌面上的视窗和控件，比 OS9 所提供的外观更多。</p></blockquote><p><a href="https://zh.wikipedia.org/wiki/MacOS" target="_blank" rel="noopener">https://zh.wikipedia.org/wiki/MacOS</a></p><p>好啦，下面开始详细介绍软件<br>软件官网标语——体验极致模仿 mac os 系统桌面</p><p><img src="https://pic3.zhimg.com/80/v2-c4913561fc3f1510bea0bfe2ada6ec6e_720w.jpg" alt="img">点击查看大图，是不是基本上看不出区别？</p><p><a href="https://www.mydockfinder.com/" target="_blank" rel="noopener">https://www.mydockfinder.com/www.mydockfinder.com</a></p><p>够简洁又够复杂，为什么这样说呢？<br>下面分开来介绍</p><h2 id="一、MyFinder"><a href="#一、MyFinder" class="headerlink" title="一、MyFinder"></a><strong>一、MyFinder</strong></h2><p>左端会显示当前窗口程序名</p><p><img src="https://pic2.zhimg.com/80/v2-4927da08eb3a5af1611c85ab50e6b21d_720w.jpg" alt="img"></p><p><img src="https://pic1.zhimg.com/80/v2-9efb72f11392fc8a3bdf627ad93f17ac_720w.jpg" alt="img">鼠标移到左上角点击显示开始菜单</p><p><img src="https://pic3.zhimg.com/v2-e169d5e2c37b30bba5165a2483aa975a_b.jpg" alt="img"></p><p>有些栏目是为了模仿而设置的</p><p>（无法点击使用，即使显示黑非灰）</p><p>下面两个栏目是有较多的可用项目</p><p><img src="https://pic4.zhimg.com/80/v2-8993b5b3ad263a914c3763cec7c4e9ef_720w.jpg" alt="img"></p><p>比如：偏好设置</p><p><img src="https://pic1.zhimg.com/80/v2-0e99f38302dc71e74b20722b84b854fc_720w.jpg" alt="img"></p><p>开启 MyFinder 后，理论上可以隐藏任务栏了<br>因为 MyFinder 有任务栏大部分的功能</p><p><strong>1、CPU、磁盘、内存状态显示</strong></p><p><img src="https://pic1.zhimg.com/v2-157f89552692239628981bdb44bb23b4_b.jpg" alt="img"></p><p>2、网络 IP 和无线网络连接传输等情况</p><p><img src="https://pic2.zhimg.com/80/v2-563f08c2c75ab25746d89aca9fd0b775_720w.jpg" alt="img"></p><p>3、音量调整显示</p><p><img src="https://pic1.zhimg.com/80/v2-348fb2830f302be610ed12920f5fe3c4_720w.jpg" alt="img"></p><p>4、系统托盘与时钟</p><p><img src="https://pic4.zhimg.com/80/v2-139d072cbd2dba23266e1d3058ae1e0b_720w.jpg" alt="img"></p><p>5、输入法和虚拟键盘</p><p><img src="https://pic2.zhimg.com/80/v2-31dcbad8bd3c00e72762576667b4ceed_720w.jpg" alt="img"></p><p>6、快速联网搜索</p><p><img src="https://pic3.zhimg.com/80/v2-771b9f8da2c3ddd5799361ee36f88c46_720w.jpg" alt="img"></p><p>MyFinder 是不是够简洁又够复杂？</p><h2 id="二、MyDock"><a href="#二、MyDock" class="headerlink" title="二、MyDock"></a><strong>二、MyDock</strong></h2><p>我们看看动态效果</p><p><img src="https://pic1.zhimg.com/v2-2907b67e44bb6656a64c1861fa4ed0e4_b.jpg" alt="img"></p><p>窗口最小化和打开时显示过渡动画</p><p><img src="https://pic2.zhimg.com/v2-a45a89dcde66a32b04813d5c39005f15_b.jpg" alt="img"></p><p>可以向 Dock 添加图标</p><p><img src="https://pic1.zhimg.com/80/v2-00689c7441978fbca4019fdb2ea74e40_720w.jpg" alt="img"></p><p><img src="https://pic3.zhimg.com/80/v2-e4b96e2ae7a5102cbb43f99070b300ea_720w.jpg" alt="img">如果觉得图标不好看，可以自己找 icon 文件修改</p><p>添加天气、时间、控制面板、托盘图标等工具</p><p><img src="https://pic4.zhimg.com/v2-3ca6116af5b9eb806dc3464fd1fe37cf_b.jpg" alt="img"></p><p>以添加天气为例</p><p><img src="https://pic4.zhimg.com/v2-ac909a043898b0def29550dd94dfb8df_b.jpg" alt="img"></p><p>Dock 会显示正在运行的软件图标</p><p>如果嫌图标太多，可以设置不显示</p><p><img src="https://pic4.zhimg.com/80/v2-51cf7fd0767611e200d3fd9ef4a78087_720w.jpg" alt="img"></p><p>Dock 偏好设置</p><p><img src="https://pic3.zhimg.com/80/v2-902f1bee0cb7c3b137baac6f900eecaa_720w.jpg" alt="img"></p><p><img src="https://pic3.zhimg.com/v2-ca8aae25ca84aa603bba7bb886331376_b.jpg" alt="img"></p><p>第一次使用可能会偶尔崩溃，</p><p>建议安装后重启使用</p><p>如果使用了几天仍然频繁崩溃<br>那可以使用另一款替代品<br>—— 软媒桌面（mydesk）<br>只是功能比较简单</p><p><img src="https://pic3.zhimg.com/v2-2fc3663092febc58b583f279a96ace06_b.webp" alt="img"></p><p><img src="https://pic1.zhimg.com/80/v2-7dea8c1cea1ca01f2fa384bb65d5abb8_720w.jpg" alt="img"></p><p><img src="https://pic1.zhimg.com/80/v2-54f26cfd6e7a48c9786bc739c53683bc_720w.jpg" alt="img"></p><p><img src="https://pic4.zhimg.com/80/v2-8d381cbc4397591d8d676e451f742317_720w.jpg" alt="img"></p><p><img src="https://pic2.zhimg.com/80/v2-ab763b5529f3f4ba464ebb4cc375bf49_720w.jpg" alt="img"></p><p>感觉字数不够，水了点壁纸（滑稽）</p><h1 id="The-End"><a href="#The-End" class="headerlink" title="The End"></a>The End</h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;今天介绍一款仿 macOS UI 的软件：&lt;/p&gt;
+&lt;p&gt;——MyFinder、MyDock。&lt;/p&gt;
+&lt;p&gt;适用于装逼或是真的喜欢 macOS UI，&lt;/p&gt;
+&lt;p&gt;但因为某些原因不得不用 Windows 的用户。&lt;/p&gt;
+&lt;p&gt;先来看看软件官网效果图&lt;/p&gt;
+&lt;p&gt;&lt;i
+      
+    
+    </summary>
+    
+    
+    
+      <category term="软件" scheme="https://blog.ninglans.top/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>About清明</title>
     <link href="https://blog.ninglans.top/posts/9687/"/>
     <id>https://blog.ninglans.top/posts/9687/</id>
     <published>2020-04-06T03:49:35.000Z</published>
-    <updated>2020-04-06T03:51:10.712Z</updated>
+    <updated>2020-04-06T07:23:31.427Z</updated>
     
     <content type="html"><![CDATA[<p>清明节是中国最大的农历节日之一。清明节正式是在冬至104天后开始，通常落在4月4日或5日，但清明活动可能会早在10天前开始。</p><table><thead><tr><th align="left">年</th><th align="left">放假时间</th><th align="left">星期</th><th align="left">公共假期</th></tr></thead><tbody><tr><td align="left">2020</td><td align="left">4月4日 ～ 4月6日</td><td align="left">周六 ～ 周一</td><td align="left">清明节</td></tr><tr><td align="left">2021</td><td align="left">4月4日</td><td align="left">周日</td><td align="left">清明节</td></tr><tr><td align="left">2022</td><td align="left">4月5日</td><td align="left">周二</td><td align="left">清明节</td></tr><tr><td align="left">2023</td><td align="left">4月3日 ～ 4月5日</td><td align="left">周一 ～ 周三</td><td align="left">清明节</td></tr><tr><td align="left">2024</td><td align="left">4月4日 ～ 4月5日</td><td align="left">周四 ～ 周五</td><td align="left">清明节</td></tr></tbody></table><p>因为清明节是个假日，它在英译里经常被称为“扫墓日”。清明节的主要目的是祭拜祖先。虽然许多中国节日都以祭拜祖先为主题，但清明节是最大型的。孝道是中国传统文化的核心，因此，不意外地，清明节是中原之国最广为庆祝的节日之一。中国几乎每个民族都以特定的方式庆祝清明。由于清明节落在中国大部分地区的种植季节，清明节也是庆祝春季的节日。</p><h3 id="传说"><a href="#传说" class="headerlink" title="传说"></a>传说</h3><p>根据中国的民间故事，清明节始于公元前700至500年间。传说中，有个叫介子推的辅臣，他对晋国国王晋文公非常忠心，帮助了晋文公在逃亡中生存下来。为了确保晋文公不会被饿死，介子推从自己的腿上割下一块肉，献给晋文公。经过了这样的苦难，19年后，晋文公重夺政权。</p><p>这时候，晋文公早已忘了介子推的恩德。后来，晋文公想起了介子推，对自己的忘恩感到懊悔不已。晋文公原本想报答介子推，但当他找到介子推时，他已经去世了。为了纪念介子推，晋文公将清明节立为纪念已故的节日。</p><h3 id="传统"><a href="#传统" class="headerlink" title="传统"></a>传统</h3><p>清明节期间，人们追随各种习俗和传统。最受欢迎的活动之一是放风筝。白天，人们放各种颜色的风筝庆祝春天。晚上，他们也放风筝庆祝节日，但风筝是附有小灯笼的天灯。当数百个天灯飘在空中时，中国的天空看起来就像布满了许多星星。天灯是幸福的象征，但根据传说，人们也认为天灯能够治愈和预防疾病。</p><p>根据清明节祭拜祖先的传统，扫墓是节日当天或节日前10天以内重要的活动。这个活动的目的是打扫和美化祖先的坟墓或骨坛。坟墓地块上的杂草将被除去，新一批的泥土将覆盖在上面。很多时候，人们也会将祖先最喜欢的食物和美酒供奉给他们以示敬意。</p><p>供奉香和鲜花也是孝敬的表现。清明节可使用各种鲜花，但桃花和菊花是最普遍的。在城市里，由于火葬代替了传统的埋葬，祭拜仪式并不繁复。无论任何形式的祭拜，人们都为祖先和已故亲属祷告。</p><p>祭拜了祖先之后，很多人都会参加春天郊游（亦称踏青），享受温暖的天气和朋友的陪伴。第一次的春游发生在唐代，从那时起，春游便成了庆祝清明节的一部分。</p><p>为了运动和体验大自然，许多人都会去市中心或在大自然中游玩。最受欢迎的活动包括赏花、与家人在公园散步、登高观赏自然景观、参加运动项目等。春游是为了在祭拜祖先后放松心情，使身心愉快和健康。</p><h3 id="美食"><a href="#美食" class="headerlink" title="美食"></a>美食</h3><p>与最大型的节日一样，清明节具有各种特色美食，来庆祝这个愉快的佳节。清明最受欢迎的美食是撒子。撒子是由鸡蛋、洋葱、芝麻或其他成分混合的油炸类面粉或米粉。撒子的主料有异于不同地区和厨师。这是一种遍中国都可吃到的咸食。</p><p>清明时用洋葱和盐调味的清明螺也是人们最喜爱的佳肴。为了特别庆祝春游和温暖的月份，中国人也喜欢吃青团，一种绿色的点心。这些点心的形状像青苹果，由糯米粉、绿色蔬菜汁和豆沙做成，是甜的和绿色的。一些中国厨师也在青团食谱作出变化，创造独特的口味。</p><h3 id="The-End"><a href="#The-End" class="headerlink" title="The End"></a>The End</h3>]]></content>
     
