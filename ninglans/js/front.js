@@ -10,8 +10,8 @@ $(function () {
         nav: true,
         smartSpeed: 700,
         navText: [
-            "<i class='fa fa-angle-left'></i>",
-            "<i class='fa fa-angle-right'></i>"
+            "<i class="fa fa-angle-left"></i>",
+            "<i class="fa fa-angle-right"></i>"
         ],
         responsiveClass: true,
         responsive: {
@@ -50,13 +50,7 @@ $(function () {
         currentScrollTop = a;
         if (c < currentScrollTop && a > b + b) {
             navbar.addClass("scrollUp");
-        } else if (c > currentScrollTop && !(a <= b)) {
-            navbar.removeClass("scrollUp");
-        }
-        c = currentScrollTop;
-
-
-        if ($(window).scrollTop() >= 2000) {
+        } else if (c > currentScrollTop && !(a <= b)) { navbar.removeclass("scrollup"); } c="currentScrollTop;" if ($(window).scrolltop()>= 2000) {
             $('#scrollTop').addClass('active');
         } else {
             $('#scrollTop').removeClass('active');
@@ -96,7 +90,7 @@ $(function () {
     // ------------------------------------------------------ //
 
     var stylesheet = $('link#theme-stylesheet');
-    $( "<link id='new-stylesheet' rel='stylesheet'>" ).insertAfter(stylesheet);
+    $( "<link id="new-stylesheet" rel="stylesheet">" ).insertAfter(stylesheet);
     var alternateColour = $('link#new-stylesheet');
 
     if ($.cookie("theme_csspath")) {
@@ -121,3 +115,4 @@ $(function () {
 
 
 });
+</=>

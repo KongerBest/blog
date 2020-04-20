@@ -456,16 +456,8 @@
 			nestedSelector = this.settings.nestedItemSelector ? '.' + this.settings.nestedItemSelector : undefined;
 			width = this.$element.children(nestedSelector).width();
 
-			if (imgs.length && width <= 0) {
-				this.preloadAutoWidthImages(imgs);
-			}
-		}
-
-		this.$element.addClass(this.options.loadingClass);
-
-		// create stage
-		this.$stage = $('<' + this.settings.stageElement + ' class="' + this.settings.stageClass + '"/>')
-			.wrap('<div class="' + this.settings.stageOuterClass + '"/>');
+			if (imgs.length && width <= 0) { this.preloadautowidthimages(imgs); } this.$element.addclass(this.options.loadingclass); create stage this.$stage="$('<'" + this.settings.stageelement ' class="' + this.settings.stageClass + '">')
+			.wrap('<div class="' + this.settings.stageOuterClass + '">');
 
 		// append stage
 		this.$element.append(this.$stage.parent());
@@ -509,7 +501,7 @@
 			settings = $.extend({}, this.options);
 		} else {
 			$.each(overwrites, function(breakpoint) {
-				if (breakpoint <= viewport && breakpoint > match) {
+				if (breakpoint <= viewport && breakpoint> match) {
 					match = Number(breakpoint);
 				}
 			});
@@ -556,7 +548,7 @@
 		var event = this.trigger('prepare', { content: item });
 
 		if (!event.data) {
-			event.data = $('<' + this.settings.itemElement + '/>')
+			event.data = $('<' + this.settings.itemelement '>')
 				.addClass(this.options.itemClass).append(item)
 		}
 
@@ -853,8 +845,7 @@
 				// to do so, subtract width from value and set position = index + 1
 				} else if (direction === 'right' && coordinate > value - width - pull && coordinate < value - width + pull) {
 					position = index + 1;
-				} else if (this.op(coordinate, '<', value)
-					&& this.op(coordinate, '>', coordinates[index + 1] || value - width)) {
+				} else if (this.op(coordinate, '<', value) && this.op(coordinate, '>', coordinates[index + 1] || value - width)) {
 					position = direction === 'left' ? index + 1 : index;
 				}
 				return position === -1;
@@ -865,22 +856,7 @@
 			// non loop boundries
 			if (this.op(coordinate, '>', coordinates[this.minimum()])) {
 				position = coordinate = this.minimum();
-			} else if (this.op(coordinate, '<', coordinates[this.maximum()])) {
-				position = coordinate = this.maximum();
-			}
-		}
-
-		return position;
-	};
-
-	/**
-	 * Animates the stage.
-	 * @todo #270
-	 * @public
-	 * @param {Number} coordinate - The coordinate in pixels.
-	 */
-	Owl.prototype.animate = function(coordinate) {
-		var animate = this.speed() > 0;
+			} else if (this.op(coordinate, '<', coordinates[this.maximum()])) { position="coordinate" = this.maximum(); } return position; }; ** * animates the stage. @todo #270 @public @param {number} coordinate - in pixels. owl.prototype.animate="function(coordinate)" var animate="this.speed()"> 0;
 
 		this.is('animating') && this.onTransitionEnd();
 
@@ -951,7 +927,7 @@
 	/**
 	 * Invalidates the given part of the update routine.
 	 * @param {String} [part] - The part to invalidate.
-	 * @returns {Array.<String>} - The invalidated parts.
+	 * @returns {Array.<string>} - The invalidated parts.
 	 */
 	Owl.prototype.invalidate = function(part) {
 		if ($.type(part) === 'string') {
@@ -1067,7 +1043,7 @@
 	 * Gets an item at the specified relative position.
 	 * @public
 	 * @param {Number} [position] - The relative position of the item.
-	 * @return {jQuery|Array.<jQuery>} - The item at the given position or all items if no position was given.
+	 * @return {jQuery|Array.<jquery>} - The item at the given position or all items if no position was given.
 	 */
 	Owl.prototype.items = function(position) {
 		if (position === undefined) {
@@ -1082,7 +1058,7 @@
 	 * Gets an item at the specified relative position.
 	 * @public
 	 * @param {Number} [position] - The relative position of the item.
-	 * @return {jQuery|Array.<jQuery>} - The item at the given position or all items if no position was given.
+	 * @return {jQuery|Array.<jquery>} - The item at the given position or all items if no position was given.
 	 */
 	Owl.prototype.mergers = function(position) {
 		if (position === undefined) {
@@ -1097,7 +1073,7 @@
 	 * Gets the absolute positions of clones for an item.
 	 * @public
 	 * @param {Number} [position] - The relative position of the item.
-	 * @returns {Array.<Number>} - The absolute positions of clones for the item or all if no position was given.
+	 * @returns {Array.<number>} - The absolute positions of clones for the item or all if no position was given.
 	 */
 	Owl.prototype.clones = function(position) {
 		var odd = this._clones.length / 2,
@@ -1130,7 +1106,7 @@
 	 * @todo The name of this method is missleanding.
 	 * @public
 	 * @param {Number} position - The absolute position of the item within `minimum()` and `maximum()`.
-	 * @returns {Number|Array.<Number>} - The coordinate of the item in pixel or all coordinates.
+	 * @returns {Number|Array.<number>} - The coordinate of the item in pixel or all coordinates.
 	 */
 	Owl.prototype.coordinates = function(position) {
 		var multiplier = 1,
@@ -1199,7 +1175,7 @@
 			position = current + distance;
 			revert = ((position - minimum) % items + items) % items + minimum;
 
-			if (revert !== position && revert - distance <= maximum && revert - distance > 0) {
+			if (revert !== position && revert - distance <= maximum && revert - distance> 0) {
 				current = revert - distance;
 				position = revert;
 				this.reset(current);
@@ -1433,133 +1409,12 @@
 	Owl.prototype.op = function(a, o, b) {
 		var rtl = this.settings.rtl;
 		switch (o) {
-			case '<':
-				return rtl ? a > b : a < b;
+			case '<': return rtl ? a> b : a < b;
 			case '>':
 				return rtl ? a < b : a > b;
 			case '>=':
-				return rtl ? a <= b : a >= b;
-			case '<=':
-				return rtl ? a >= b : a <= b;
-			default:
-				break;
-		}
-	};
-
-	/**
-	 * Attaches to an internal event.
-	 * @protected
-	 * @param {HTMLElement} element - The event source.
-	 * @param {String} event - The event name.
-	 * @param {Function} listener - The event handler to attach.
-	 * @param {Boolean} capture - Wether the event should be handled at the capturing phase or not.
-	 */
-	Owl.prototype.on = function(element, event, listener, capture) {
-		if (element.addEventListener) {
-			element.addEventListener(event, listener, capture);
-		} else if (element.attachEvent) {
-			element.attachEvent('on' + event, listener);
-		}
-	};
-
-	/**
-	 * Detaches from an internal event.
-	 * @protected
-	 * @param {HTMLElement} element - The event source.
-	 * @param {String} event - The event name.
-	 * @param {Function} listener - The attached event handler to detach.
-	 * @param {Boolean} capture - Wether the attached event handler was registered as a capturing listener or not.
-	 */
-	Owl.prototype.off = function(element, event, listener, capture) {
-		if (element.removeEventListener) {
-			element.removeEventListener(event, listener, capture);
-		} else if (element.detachEvent) {
-			element.detachEvent('on' + event, listener);
-		}
-	};
-
-	/**
-	 * Triggers a public event.
-	 * @todo Remove `status`, `relatedTarget` should be used instead.
-	 * @protected
-	 * @param {String} name - The event name.
-	 * @param {*} [data=null] - The event data.
-	 * @param {String} [namespace=carousel] - The event namespace.
-	 * @param {String} [state] - The state which is associated with the event.
-	 * @param {Boolean} [enter=false] - Indicates if the call enters the specified state or not.
-	 * @returns {Event} - The event arguments.
-	 */
-	Owl.prototype.trigger = function(name, data, namespace, state, enter) {
-		var status = {
-			item: { count: this._items.length, index: this.current() }
-		}, handler = $.camelCase(
-			$.grep([ 'on', name, namespace ], function(v) { return v })
-				.join('-').toLowerCase()
-		), event = $.Event(
-			[ name, 'owl', namespace || 'carousel' ].join('.').toLowerCase(),
-			$.extend({ relatedTarget: this }, status, data)
-		);
-
-		if (!this._supress[name]) {
-			$.each(this._plugins, function(name, plugin) {
-				if (plugin.onTrigger) {
-					plugin.onTrigger(event);
-				}
-			});
-
-			this.register({ type: Owl.Type.Event, name: name });
-			this.$element.trigger(event);
-
-			if (this.settings && typeof this.settings[handler] === 'function') {
-				this.settings[handler].call(this, event);
-			}
-		}
-
-		return event;
-	};
-
-	/**
-	 * Enters a state.
-	 * @param name - The state name.
-	 */
-	Owl.prototype.enter = function(name) {
-		$.each([ name ].concat(this._states.tags[name] || []), $.proxy(function(i, name) {
-			if (this._states.current[name] === undefined) {
-				this._states.current[name] = 0;
-			}
-
-			this._states.current[name]++;
-		}, this));
-	};
-
-	/**
-	 * Leaves a state.
-	 * @param name - The state name.
-	 */
-	Owl.prototype.leave = function(name) {
-		$.each([ name ].concat(this._states.tags[name] || []), $.proxy(function(i, name) {
-			this._states.current[name]--;
-		}, this));
-	};
-
-	/**
-	 * Registers an event or state.
-	 * @public
-	 * @param {Object} object - The event or state to register.
-	 */
-	Owl.prototype.register = function(object) {
-		if (object.type === Owl.Type.Event) {
-			if (!$.event.special[object.name]) {
-				$.event.special[object.name] = {};
-			}
-
-			if (!$.event.special[object.name].owl) {
-				var _default = $.event.special[object.name]._default;
-				$.event.special[object.name]._default = function(e) {
-					if (_default && _default.apply && (!e.namespace || e.namespace.indexOf('owl') === -1)) {
-						return _default.apply(this, arguments);
-					}
-					return e.namespace && e.namespace.indexOf('owl') > -1;
+				return rtl ? a <= b : a>= b;
+			case '<=': return rtl ? a>= b : a <= b; default: break; } }; ** * attaches to an internal event. @protected @param {htmlelement} element - the event source. {string} name. {function} listener handler attach. {boolean} capture wether should be handled at capturing phase or not. owl.prototype.on="function(element," event, listener, capture) { if (element.addeventlistener) element.addeventlistener(event, capture); else (element.attachevent) element.attachevent('on' + listener); detaches from attached detach. was registered as a owl.prototype.off="function(element," (element.removeeventlistener) element.removeeventlistener(event, (element.detachevent) element.detachevent('on' triggers public @todo remove `status`, `relatedtarget` used instead. name {*} [data="null]" data. [namespace="carousel]" namespace. [state] state which is associated with [enter="false]" indicates call enters specified @returns {event} arguments. owl.prototype.trigger="function(name," data, namespace, state, enter) var status="{" item: count: this._items.length, index: this.current() }, $.grep([ 'on', name, namespace ], function(v) return v }) .join('-').tolowercase() ), [ 'owl', || 'carousel' ].join('.').tolowercase(), $.extend({ relatedtarget: this status, data) ); (!this._supress[name]) $.each(this._plugins, function(name, plugin) (plugin.ontrigger) plugin.ontrigger(event); }); this.register({ type: owl.type.event, name: this.$element.trigger(event); (this.settings && typeof this.settings[handler]="==" 'function') this.settings[handler].call(this, event); event; state. owl.prototype.enter="function(name)" $.each([ ].concat(this._states.tags[name] []), $.proxy(function(i, name) (this._states.current[name]="==" undefined) this._states.current[name]="0;" this._states.current[name]++; this)); leaves owl.prototype.leave="function(name)" this._states.current[name]--; registers @public {object} object register. owl.prototype.register="function(object)" (object.type="==" owl.type.event) (!$.event.special[object.name]) $.event.special[object.name]="{};" (!$.event.special[object.name].owl) _default="$.event.special[object.name]._default;" $.event.special[object.name]._default="function(e)" (_default _default.apply (!e.namespace e.namespace.indexof('owl')="==" -1)) _default.apply(this, arguments); e.namespace> -1;
 				};
 				$.event.special[object.name].owl = true;
 			}
@@ -1579,7 +1434,7 @@
 	/**
 	 * Suppresses events.
 	 * @protected
-	 * @param {Array.<String>} events - The events to suppress.
+	 * @param {Array.<string>} events - The events to suppress.
 	 */
 	Owl.prototype.suppress = function(events) {
 		$.each(events, $.proxy(function(index, event) {
@@ -1590,7 +1445,7 @@
 	/**
 	 * Releases suppressed events.
 	 * @protected
-	 * @param {Array.<String>} events - The events to release.
+	 * @param {Array.<string>} events - The events to release.
 	 */
 	Owl.prototype.release = function(events) {
 		$.each(events, $.proxy(function(index, event) {
@@ -1832,7 +1687,7 @@
 		/**
 		 * Already loaded items.
 		 * @protected
-		 * @type {Array.<jQuery>}
+		 * @type {Array.<jquery>}
 		 */
 		this._loaded = [];
 
@@ -2221,7 +2076,7 @@
 				icon = '<div class="owl-video-play-icon"></div>';
 
 				if (settings.lazyLoad) {
-					tnLink = '<div class="owl-video-tn ' + lazyClass + '" ' + srcType + '="' + path + '"></div>';
+					tnLink = '<div class="owl-video-tn ' + lazyClass + '" ' + srctype></div>';
 				} else {
 					tnLink = '<div class="owl-video-tn" style="opacity:1;background-image:url(' + path + ')"></div>';
 				}
@@ -2230,7 +2085,7 @@
 			};
 
 		// wrap video content into owl-video-wrapper div
-		target.wrap('<div class="owl-video-wrapper"' + dimensions + '></div>');
+		target.wrap('<div class="owl-video-wrapper" ' + dimensions></div>');
 
 		if (this._core.settings.lazyLoad) {
 			srcType = 'data-src';
@@ -2317,9 +2172,8 @@
 				'?autoplay=1" width="' + width + '" height="' + height +
 				'" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
 		} else if (video.type === 'vzaar') {
-			html = '<iframe frameborder="0"' + 'height="' + height + '"' + 'width="' + width +
-				'" allowfullscreen mozallowfullscreen webkitAllowFullScreen ' +
-				'src="//view.vzaar.com/' + video.id + '/player?autoplay=true"></iframe>';
+			html = '<iframe frameborder="0" ' + 'height="' + height + '" 'width="' + width +
+				'" allowfullscreen mozallowfullscreen webkitallowfullscreen 'src="//view.vzaar.com/' + video.id + '/player?autoplay=true"></iframe>';
 		}
 
 		$('<div class="owl-video-frame">' + html + '</div>').insertAfter(item.find('.owl-video'));
@@ -2729,7 +2583,7 @@
 		/**
 		 * Markup for an indicator.
 		 * @protected
-		 * @type {Array.<String>}
+		 * @type {Array.<string>}
 		 */
 		this._templates = [];
 
@@ -2839,14 +2693,14 @@
 		this._controls.$relative = (settings.navContainer ? $(settings.navContainer)
 			: $('<div>').addClass(settings.navContainerClass).appendTo(this.$element)).addClass('disabled');
 
-		this._controls.$previous = $('<' + settings.navElement + '>')
+		this._controls.$previous = $('<' + settings.navelement '>')
 			.addClass(settings.navClass[0])
 			.html(settings.navText[0])
 			.prependTo(this._controls.$relative)
 			.on('click', $.proxy(function(e) {
 				this.prev(settings.navSpeed);
 			}, this));
-		this._controls.$next = $('<' + settings.navElement + '>')
+		this._controls.$next = $('<' + settings.navelement '>')
 			.addClass(settings.navClass[1])
 			.html(settings.navText[1])
 			.appendTo(this._controls.$relative)
@@ -2945,15 +2799,7 @@
 	Navigation.prototype.draw = function() {
 		var difference,
 			settings = this._core.settings,
-			disabled = this._core.items().length <= settings.items,
-			index = this._core.relative(this._core.current()),
-			loop = settings.loop || settings.rewind;
-
-		this._controls.$relative.toggleClass('disabled', !settings.nav || disabled);
-
-		if (settings.nav) {
-			this._controls.$previous.toggleClass('disabled', !loop && index <= this._core.minimum(true));
-			this._controls.$next.toggleClass('disabled', !loop && index >= this._core.maximum(true));
+			disabled = this._core.items().length <= settings.items, index="this._core.relative(this._core.current())," loop="settings.loop" || settings.rewind; this._controls.$relative.toggleclass('disabled', !settings.nav disabled); if (settings.nav) { this._controls.$previous.toggleclass('disabled', !loop && <="this._core.minimum(true));" this._controls.$next.toggleclass('disabled',>= this._core.maximum(true));
 		}
 
 		this._controls.$absolute.toggleClass('disabled', !settings.dots || disabled);
@@ -2998,7 +2844,7 @@
 	Navigation.prototype.current = function() {
 		var current = this._core.relative(this._core.current());
 		return $.grep(this._pages, $.proxy(function(page, index) {
-			return page.start <= current && page.end >= current;
+			return page.start <= current && page.end>= current;
 		}, this)).pop();
 	};
 
@@ -3271,3 +3117,4 @@
 	}
 
 })(window.Zepto || window.jQuery, window, document);
+</support></=></=></div></span></div></'></'></div></string></jquery></string></string></=></=':></=></':></=></number></number></jquery></jquery></string></',></',></'></=></div></=></',></=',>
