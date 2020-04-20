@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ninglans.top/"/>
-  <updated>2020-04-18T02:24:59.908Z</updated>
+  <updated>2020-04-20T07:55:24.039Z</updated>
   <id>https://blog.ninglans.top/</id>
   
   <author>
@@ -17,67 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>和杂乱说再见，这五款桌面美化软件帮你整理好一切！</title>
-    <link href="https://blog.ninglans.top/posts/9941/"/>
-    <id>https://blog.ninglans.top/posts/9941/</id>
-    <published>2020-04-18T02:20:04.000Z</published>
-    <updated>2020-04-18T02:24:59.908Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;电脑用久了不仅会卡，还会变的特别乱，尤其是作为生产工具的情况下，&lt;strong&gt;日常总是会产生乱七八糟的一堆文件。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;（有没有一种连连看的既视感）&lt;/p&gt;
-&lt;p&gt;在一堆文件中找自己想要的，真是一件费时费力的事情，看久了眼睛都花了。&lt;/p&gt;
-&lt;p
-        
-      
-    
-    </summary>
-    
-      <category term="Windows" scheme="https://blog.ninglans.top/categories/Windows/"/>
-    
-    
-      <category term="软件" scheme="https://blog.ninglans.top/tags/%E8%BD%AF%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows仿MacUI</title>
-    <link href="https://blog.ninglans.top/posts/54711/"/>
-    <id>https://blog.ninglans.top/posts/54711/</id>
-    <published>2020-04-06T07:29:25.000Z</published>
-    <updated>2020-04-06T07:55:39.484Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;今天介绍一款仿 macOS UI 的软件：&lt;/p&gt;
-&lt;p&gt;——MyFinder、MyDock。&lt;/p&gt;
-&lt;p&gt;适用于装逼或是真的喜欢 macOS UI，&lt;/p&gt;
-&lt;p&gt;但因为某些原因不得不用 Windows
-        
-      
-    
-    </summary>
-    
-    
-      <category term="软件" scheme="https://blog.ninglans.top/tags/%E8%BD%AF%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
     <title>About清明</title>
     <link href="https://blog.ninglans.top/posts/9687/"/>
     <id>https://blog.ninglans.top/posts/9687/</id>
     <published>2020-04-06T03:49:35.000Z</published>
-    <updated>2020-04-06T07:23:31.427Z</updated>
+    <updated>2020-04-20T07:55:24.039Z</updated>
     
     <summary type="html">
     
@@ -85,21 +29,18 @@
       
         
         
-          &lt;p&gt;清明节是中国最大的农历节日之一。清明节正式是在冬至104天后开始，通常落在4月4日或5日，但清明活动可能会早在10天前开始。&lt;/p&gt;
+          &lt;p&gt;&lt;strong&gt;清明节&lt;/strong&gt;是中国最大的农历节日之一。清明节正式是在冬至104天后开始，通常落在4月4日或5日，但清明活动可能会早在10天前开始。&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th style=&quot;text-align:left&quot;&gt;年&lt;/th&gt;
 &lt;th
         
       
     
     </summary>
     
-      <category term="节日" scheme="https://blog.ninglans.top/categories/%E8%8A%82%E6%97%A5/"/>
+      <category term="生活" scheme="https://blog.ninglans.top/categories/%E7%94%9F%E6%B4%BB/"/>
     
-    
-      <category term="杂谈" scheme="https://blog.ninglans.top/tags/%E6%9D%82%E8%B0%88/"/>
     
   </entry>
   
@@ -108,7 +49,7 @@
     <link href="https://blog.ninglans.top/posts/33306/"/>
     <id>https://blog.ninglans.top/posts/33306/</id>
     <published>2020-04-05T12:33:48.000Z</published>
-    <updated>2020-04-05T12:39:20.085Z</updated>
+    <updated>2020-04-20T07:54:03.756Z</updated>
     
     <summary type="html">
     
@@ -122,10 +63,8 @@
     
     </summary>
     
-      <category term="网课" scheme="https://blog.ninglans.top/categories/%E7%BD%91%E8%AF%BE/"/>
+      <category term="随想" scheme="https://blog.ninglans.top/categories/%E9%9A%8F%E6%83%B3/"/>
     
-    
-      <category term="杂谈" scheme="https://blog.ninglans.top/tags/%E6%9D%82%E8%B0%88/"/>
     
   </entry>
   
@@ -134,24 +73,16 @@
     <link href="https://blog.ninglans.top/posts/3315/"/>
     <id>https://blog.ninglans.top/posts/3315/</id>
     <published>2020-04-03T08:53:00.000Z</published>
-    <updated>2020-04-03T12:01:57.684Z</updated>
+    <updated>2020-04-20T07:53:35.662Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;轻量级Markdown编辑软件：Typora&quot;&gt;&lt;a href=&quot;#轻量级Markdown编辑软件：Typora&quot; class=&quot;headerlink&quot;
-        
-      
+      软件
     
     </summary>
     
-      <category term="软件" scheme="https://blog.ninglans.top/categories/%E8%BD%AF%E4%BB%B6/"/>
+      <category term="资源" scheme="https://blog.ninglans.top/categories/%E8%B5%84%E6%BA%90/"/>
     
-    
-      <category term="hexo" scheme="https://blog.ninglans.top/tags/hexo/"/>
     
   </entry>
   
@@ -160,24 +91,18 @@
     <link href="https://blog.ninglans.top/posts/57345/"/>
     <id>https://blog.ninglans.top/posts/57345/</id>
     <published>2020-04-01T03:50:55.000Z</published>
-    <updated>2020-04-03T11:35:21.468Z</updated>
+    <updated>2020-04-20T07:55:58.542Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
-        
-      
+      github
     
     </summary>
     
-      <category term="软件" scheme="https://blog.ninglans.top/categories/%E8%BD%AF%E4%BB%B6/"/>
+      <category term="技术" scheme="https://blog.ninglans.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
+      <category term="资源" scheme="https://blog.ninglans.top/categories/%E6%8A%80%E6%9C%AF/%E8%B5%84%E6%BA%90/"/>
     
-      <category term="github" scheme="https://blog.ninglans.top/tags/github/"/>
     
   </entry>
   
@@ -186,7 +111,7 @@
     <link href="https://blog.ninglans.top/posts/48089/"/>
     <id>https://blog.ninglans.top/posts/48089/</id>
     <published>2020-02-25T04:27:57.000Z</published>
-    <updated>2020-02-25T06:03:23.738Z</updated>
+    <updated>2020-04-20T07:57:29.909Z</updated>
     
     <summary type="html">
     
@@ -212,25 +137,16 @@
     <link href="https://blog.ninglans.top/posts/64865/"/>
     <id>https://blog.ninglans.top/posts/64865/</id>
     <published>2020-02-25T04:13:14.000Z</published>
-    <updated>2020-02-25T06:03:23.739Z</updated>
+    <updated>2020-04-20T07:47:38.696Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;这个…用电脑的同志们，&lt;a
-        
-      
+      关闭广告
     
     </summary>
     
-      <category term="教程" scheme="https://blog.ninglans.top/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="技术" scheme="https://blog.ninglans.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    
-      <category term="微信" scheme="https://blog.ninglans.top/tags/%E5%BE%AE%E4%BF%A1/"/>
     
   </entry>
   
@@ -239,25 +155,16 @@
     <link href="https://blog.ninglans.top/posts/32449/"/>
     <id>https://blog.ninglans.top/posts/32449/</id>
     <published>2020-01-31T13:37:11.000Z</published>
-    <updated>2020-02-01T03:53:18.173Z</updated>
+    <updated>2020-04-20T07:54:47.950Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;持续更新中，欢迎补充~&lt;/p&gt;
-&lt;h2 id=&quot;数字符号&quot;&gt;&lt;a href=&quot;#数字符号&quot; class=&quot;headerlink&quot; title=&quot;数字符号&quot;&gt;&lt;/a&gt;数字符号&lt;/h2&gt;&lt;p&gt;① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲
-        
-      
+      符号
     
     </summary>
     
-      <category term="教程" scheme="https://blog.ninglans.top/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="资源" scheme="https://blog.ninglans.top/categories/%E8%B5%84%E6%BA%90/"/>
     
-    
-      <category term="html" scheme="https://blog.ninglans.top/tags/html/"/>
     
   </entry>
   
@@ -266,24 +173,16 @@
     <link href="https://blog.ninglans.top/posts/39942/"/>
     <id>https://blog.ninglans.top/posts/39942/</id>
     <published>2020-01-25T11:34:45.000Z</published>
-    <updated>2020-01-25T05:27:17.126Z</updated>
+    <updated>2020-04-20T07:49:10.200Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;h2 id=&quot;利用hexo搭建博客（1）&quot;&gt;&lt;a href=&quot;#利用hexo搭建博客（1）&quot; class=&quot;headerlink&quot;
-        
-      
+      hexo
     
     </summary>
     
-      <category term="教程" scheme="https://blog.ninglans.top/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="技术" scheme="https://blog.ninglans.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    
-      <category term="hexo" scheme="https://blog.ninglans.top/tags/hexo/"/>
     
   </entry>
   
@@ -292,25 +191,16 @@
     <link href="https://blog.ninglans.top/posts/64257/"/>
     <id>https://blog.ninglans.top/posts/64257/</id>
     <published>2020-01-24T03:57:10.000Z</published>
-    <updated>2020-01-24T04:02:38.220Z</updated>
+    <updated>2020-04-20T07:52:32.073Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;经常在电脑上连接了别人的wifi或自己的wifi..忘记密码..想要在其它设备连接时可以使用这个命令直接查看连接过的wifi密码…&lt;/p&gt;
-&lt;h2 id=&quot;用法&quot;&gt;&lt;a href=&quot;#用法&quot; class=&quot;headerlink&quot;
-        
-      
+      bat
     
     </summary>
     
-      <category term="教程" scheme="https://blog.ninglans.top/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="技术" scheme="https://blog.ninglans.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    
-      <category term="批处理" scheme="https://blog.ninglans.top/tags/%E6%89%B9%E5%A4%84%E7%90%86/"/>
     
   </entry>
   
@@ -319,7 +209,7 @@
     <link href="https://blog.ninglans.top/posts/36128/"/>
     <id>https://blog.ninglans.top/posts/36128/</id>
     <published>2020-01-21T02:25:45.000Z</published>
-    <updated>2020-01-21T05:47:36.274Z</updated>
+    <updated>2020-04-20T07:58:14.597Z</updated>
     
     <summary type="html">
     
@@ -334,10 +224,10 @@
     
     </summary>
     
-      <category term="教程" scheme="https://blog.ninglans.top/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="技术" scheme="https://blog.ninglans.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
+      <category term="资源" scheme="https://blog.ninglans.top/categories/%E6%8A%80%E6%9C%AF/%E8%B5%84%E6%BA%90/"/>
     
-      <category term="hexo" scheme="https://blog.ninglans.top/tags/hexo/"/>
     
   </entry>
   
@@ -346,26 +236,16 @@
     <link href="https://blog.ninglans.top/posts/55302/"/>
     <id>https://blog.ninglans.top/posts/55302/</id>
     <published>2020-01-18T12:52:08.000Z</published>
-    <updated>2020-01-18T12:57:48.940Z</updated>
+    <updated>2020-04-20T07:48:43.481Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;安装前提&quot;&gt;&lt;a href=&quot;#安装前提&quot; class=&quot;headerlink&quot; title=&quot;安装前提&quot;&gt;&lt;/a&gt;安装前提&lt;/h3&gt;&lt;p&gt;安装 Hexo 相当简单，只需要先安装下列应用程序即可：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a
-        
-      
+      hexo
     
     </summary>
     
-      <category term="教程" scheme="https://blog.ninglans.top/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="技术" scheme="https://blog.ninglans.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    
-      <category term="hexo" scheme="https://blog.ninglans.top/tags/hexo/"/>
     
   </entry>
   
@@ -374,25 +254,16 @@
     <link href="https://blog.ninglans.top/posts/44194/"/>
     <id>https://blog.ninglans.top/posts/44194/</id>
     <published>2020-01-18T01:53:21.000Z</published>
-    <updated>2020-01-18T02:02:24.216Z</updated>
+    <updated>2020-04-20T07:46:11.468Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;《我的世界》作为一款09年推出的游戏，凭借出色的游戏性获得了众多玩家的喜爱，玩家可以在游戏中创建自己的牧场，开开心心的放羊、养鸡，非常开心。不过这款游戏的画面可以说是完全就是马赛克，毕竟是个基于JAVA开发的游戏，而且大小只有100多M。&lt;/p&gt;
-&lt;p&gt;&lt;img
-        
-      
+      我的世界
     
     </summary>
     
-      <category term="游戏" scheme="https://blog.ninglans.top/categories/%E6%B8%B8%E6%88%8F/"/>
+      <category term="转载" scheme="https://blog.ninglans.top/categories/%E8%BD%AC%E8%BD%BD/"/>
     
-    
-      <category term="Windows" scheme="https://blog.ninglans.top/tags/Windows/"/>
     
   </entry>
   
@@ -401,27 +272,16 @@
     <link href="https://blog.ninglans.top/posts/10798/"/>
     <id>https://blog.ninglans.top/posts/10798/</id>
     <published>2020-01-16T11:47:50.000Z</published>
-    <updated>2020-01-21T02:31:46.768Z</updated>
+    <updated>2020-04-20T07:49:34.282Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;闲来无事收集了一些有趣的注释，各式各样的都有，程序员真是一群有趣的人，喜欢哪一款拿走不谢&lt;/p&gt;
-&lt;p&gt;第一款：佛祖保佑，永无BUG&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;//                            _ooOoo_    
-//          
-        
-      
+      注释
     
     </summary>
     
-      <category term="日常" scheme="https://blog.ninglans.top/categories/%E6%97%A5%E5%B8%B8/"/>
+      <category term="转载" scheme="https://blog.ninglans.top/categories/%E8%BD%AC%E8%BD%BD/"/>
     
-    
-      <category term="C++" scheme="https://blog.ninglans.top/tags/C/"/>
     
   </entry>
   
@@ -430,24 +290,18 @@
     <link href="https://blog.ninglans.top/posts/44804/"/>
     <id>https://blog.ninglans.top/posts/44804/</id>
     <published>2020-01-16T04:39:21.000Z</published>
-    <updated>2020-01-16T12:23:04.280Z</updated>
+    <updated>2020-04-20T07:58:42.240Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;pure&quot;&gt;&lt;a href=&quot;#pure&quot; class=&quot;headerlink&quot; title=&quot;pure&quot;&gt;&lt;/a&gt;pure&lt;/h2&gt;&lt;p&gt;A brand new default theme for [&lt;a href=&quot;https://hexo.io/&quot;
-        
-      
+      pure
     
     </summary>
     
-      <category term="教程" scheme="https://blog.ninglans.top/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="资源" scheme="https://blog.ninglans.top/categories/%E8%B5%84%E6%BA%90/"/>
     
+      <category term="转载" scheme="https://blog.ninglans.top/categories/%E8%B5%84%E6%BA%90/%E8%BD%AC%E8%BD%BD/"/>
     
-      <category term="hexo" scheme="https://blog.ninglans.top/tags/hexo/"/>
     
   </entry>
   
@@ -456,24 +310,16 @@
     <link href="https://blog.ninglans.top/posts/29606/"/>
     <id>https://blog.ninglans.top/posts/29606/</id>
     <published>2020-01-13T15:34:30.000Z</published>
-    <updated>2020-01-17T12:59:21.397Z</updated>
+    <updated>2020-04-20T07:48:15.191Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;教你制作炫酷的html烟花特效&quot;&gt;&lt;a href=&quot;#教你制作炫酷的html烟花特效&quot; class=&quot;headerlink&quot; title=&quot;教你制作炫酷的html烟花特效&quot;&gt;&lt;/a&gt;教你制作炫酷的html烟花特效&lt;/h1&gt;&lt;p&gt;​       
-        
-      
+      html
     
     </summary>
     
-      <category term="教程" scheme="https://blog.ninglans.top/categories/%E6%95%99%E7%A8%8B/"/>
+      <category term="技术" scheme="https://blog.ninglans.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    
-      <category term="html" scheme="https://blog.ninglans.top/tags/html/"/>
     
   </entry>
   
@@ -482,24 +328,16 @@
     <link href="https://blog.ninglans.top/posts/37773/"/>
     <id>https://blog.ninglans.top/posts/37773/</id>
     <published>2020-01-12T05:52:20.000Z</published>
-    <updated>2020-01-16T12:23:04.282Z</updated>
+    <updated>2020-04-20T07:45:48.608Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;庆祝，我的hexo博客搭建成功！&quot;&gt;&lt;a href=&quot;#庆祝，我的hexo博客搭建成功！&quot; class=&quot;headerlink&quot; title=&quot;庆祝，我的hexo博客搭建成功！&quot;&gt;&lt;/a&gt;庆祝，我的hexo博客搭建成功！&lt;/h1&gt;&lt;pre&gt;&lt;code
-        
-      
+      庆祝，我的hexo博客搭建成功！
     
     </summary>
     
-      <category term="测试性文章" scheme="https://blog.ninglans.top/categories/%E6%B5%8B%E8%AF%95%E6%80%A7%E6%96%87%E7%AB%A0/"/>
+      <category term="生活" scheme="https://blog.ninglans.top/categories/%E7%94%9F%E6%B4%BB/"/>
     
-    
-      <category term="C++" scheme="https://blog.ninglans.top/tags/C/"/>
     
   </entry>
   
@@ -507,8 +345,8 @@
     <title>Hexo-Theme-Sakura</title>
     <link href="https://blog.ninglans.top/posts/22338/"/>
     <id>https://blog.ninglans.top/posts/22338/</id>
-    <published>2018-12-12T14:16:01.000Z</published>
-    <updated>2020-04-20T06:35:47.444Z</updated>
+    <published>2019-12-12T14:16:01.000Z</published>
+    <updated>2020-04-20T07:24:24.055Z</updated>
     
     <summary type="html">
     
@@ -518,8 +356,6 @@
     
       <category term="技术" scheme="https://blog.ninglans.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    
-      <category term="web" scheme="https://blog.ninglans.top/tags/web/"/>
     
       <category term="悦读" scheme="https://blog.ninglans.top/tags/%E6%82%A6%E8%AF%BB/"/>
     
