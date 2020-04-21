@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ninglans.top/"/>
-  <updated>2020-04-21T03:57:50.481Z</updated>
+  <updated>2020-04-21T13:14:29.685Z</updated>
   <id>https://blog.ninglans.top/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Bug反馈&amp;意见提交</title>
+    <link href="https://blog.ninglans.top/posts/65311/"/>
+    <id>https://blog.ninglans.top/posts/65311/</id>
+    <published>2020-04-21T13:06:26.000Z</published>
+    <updated>2020-04-21T13:14:29.685Z</updated>
+    
+    <summary type="html">
+    
+      Bug反馈&amp;意见提交
+    
+    </summary>
+    
+      <category term="生活" scheme="https://blog.ninglans.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="技术" scheme="https://blog.ninglans.top/categories/%E7%94%9F%E6%B4%BB/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>HTML入门笔记</title>
