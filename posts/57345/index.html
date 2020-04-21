@@ -453,6 +453,7 @@
       </section>
       
 <div id="vcomments"></div>
+<script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
 <script>
   window.onload = function(){
       var valine = new Valine();
@@ -461,6 +462,9 @@
         appId: "sEh8sNfbNrJdgH6WGzQDmRQ2-gzGzoHsz",
         appKey: "BG0ccp1LTYTuLV0AkFb65xTY",
         path: window.location.pathname,
+        notify:false, 
+        verify:false,
+        recordIP:true,
         placeholder: "你是我一生只会遇见一次的惊喜 ..."
       })
   }
@@ -529,7 +533,7 @@
         <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg">
         <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/disqus-preloader.svg">
       </div>
-      <p style="color: #666666;">&copy 2020</p>
+      <p style="color: #666666;">&copy 2020 Konger</p>
     </div>
     <div class="footer-device">
     <p style="font-family: 'Ubuntu', sans-serif;">

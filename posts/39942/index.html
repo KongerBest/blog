@@ -515,6 +515,7 @@ $ git config --global user.email &quot;输入你的邮箱&quot;
       </section>
       
 <div id="vcomments"></div>
+<script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
 <script>
   window.onload = function(){
       var valine = new Valine();
@@ -523,6 +524,9 @@ $ git config --global user.email &quot;输入你的邮箱&quot;
         appId: "sEh8sNfbNrJdgH6WGzQDmRQ2-gzGzoHsz",
         appKey: "BG0ccp1LTYTuLV0AkFb65xTY",
         path: window.location.pathname,
+        notify:false, 
+        verify:false,
+        recordIP:true,
         placeholder: "你是我一生只会遇见一次的惊喜 ..."
       })
   }
@@ -591,7 +595,7 @@ $ git config --global user.email &quot;输入你的邮箱&quot;
         <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg">
         <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/disqus-preloader.svg">
       </div>
-      <p style="color: #666666;">&copy 2020</p>
+      <p style="color: #666666;">&copy 2020 Konger</p>
     </div>
     <div class="footer-device">
     <p style="font-family: 'Ubuntu', sans-serif;">
