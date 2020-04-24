@@ -516,7 +516,7 @@ $ git config --global user.email &quot;输入你的邮箱&quot;
       </section>
       
 <div id="vcomments"></div>
-<script src="//images.ninglans.top/s/Valine.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-volantis@master/source/js/valine.js"></script>
 <script>
   window.onload = function(){
       var valine = new Valine();
@@ -525,10 +525,11 @@ $ git config --global user.email &quot;输入你的邮箱&quot;
         appId: "sEh8sNfbNrJdgH6WGzQDmRQ2-gzGzoHsz",
         appKey: "BG0ccp1LTYTuLV0AkFb65xTY",
         path: window.location.pathname,
-        notify:false, 
-        verify:false,
-        recordIP:true,
-        placeholder: "你是我一生只会遇见一次的惊喜 ...（名字和邮箱必填哦~）"
+        notify: false, 
+        verify: false,
+        recordIP: true,
+        enableQQ: true,
+        placeholder: "咕咕咕——（名字和邮箱必填哦~，昵称填QQ号有惊喜~）"
       })
   }
 </script>
