@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ninglans.top/about/index.html</loc>
+    
+    <lastmod>2020-04-26T13:49:55.813Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ninglans.top/posts/56653/</loc>
     
     <lastmod>2020-04-22T12:55:13.975Z</lastmod>
@@ -156,44 +163,9 @@
   </url>
   
   <url>
-    <loc>https://blog.ninglans.top/music/index.html</loc>
-    
-    <lastmod>2020-04-20T07:21:05.023Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ninglans.top/donate/index.html</loc>
-    
-    <lastmod>2020-04-20T07:20:46.105Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.ninglans.top/tags/index.html</loc>
     
     <lastmod>2020-04-20T07:19:56.501Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ninglans.top/lab/index.html</loc>
-    
-    <lastmod>2020-04-20T07:18:22.299Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ninglans.top/about/index.html</loc>
-    
-    <lastmod>2020-04-20T06:54:53.436Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ninglans.top/client/index.html</loc>
-    
-    <lastmod>2020-03-15T19:41:30.000Z</lastmod>
     
   </url>
   
@@ -208,34 +180,6 @@
     <loc>https://blog.ninglans.top/rss/index.html</loc>
     
     <lastmod>2020-03-15T19:41:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ninglans.top/theme-sakura/index.html</loc>
-    
-    <lastmod>2020-03-15T19:41:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ninglans.top/video/index.html</loc>
-    
-    <lastmod>2020-03-15T19:41:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ninglans.top/bangumi/index.html</loc>
-    
-    <lastmod>2020-03-15T19:41:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ninglans.top/repository/index.html</loc>
-    
-    <lastmod>2020-01-13T08:26:32.623Z</lastmod>
     
   </url>
   
