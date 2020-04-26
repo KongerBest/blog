@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+
+    <!--icon-->
+    
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    
+
+    <!-- 渲染优化 -->
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--LaTex-->
+    
+
+    <!-- meta -->
+    
+    <title>VPS 服务器搭建 SSR | 酸酸乳教程 | Kongerの鸽子窝</title>
+    
+        <meta name="keywords" content="Konger, Konger,hexo,blog,coding">
+    
+    
+        <meta name="description" content="ssr搭建 -- Kongerの鸽子窝">
+    
+
+    <!--Social link-->
+     
+        <meta name="twitter:card" content="summary_large_image ">
+        
+            <meta property="og:type" content="article">
+        
+        <meta property="og:locale" content="zh-cn">
+        <meta property="og:site_name" content="Kongerの鸽子窝>">
+        <meta property="og:title" content="VPS 服务器搭建 SSR | 酸酸乳教程 | Kongerの鸽子窝 ">
+        <meta property="og:description" content="ssr搭建 -- Kongerの鸽子窝 ">
+        <meta property="og:image" content>
+     
+
+    <!-- feed -->
+    
+        <link rel="alternate" href="/atom.xml" title="Kongerの鸽子窝">
+    
+
+    
+        <link rel="stylesheet" href="/style.css">
+    
+
+     
+
+    
+         
+    
+         
+    
+
+</head>
+
+<body>
+  <div id="app">
+    <header class="header">
+    <div class="header__left">
+        
+            <a href="/" class="button">
+                <span class="logo__text">
+                    ← Kongerの鸽子窝 | 首页
+                </span>
+            </a>
+        
+    </div>
+    <div class="header__right">
+         
+            <a href="javaScript:void(0);" id="b2t">
+                <svg class="svg-icon" viewBox="0 0 20 20" width='36' height='36'>
+                    <path d="M13.889,11.611c-0.17,0.17-0.443,0.17-0.612,0l-3.189-3.187l-3.363,3.36c-0.171,0.171-0.441,0.171-0.612,0c-0.172-0.169-0.172-0.443,0-0.611l3.667-3.669c0.17-0.17,0.445-0.172,0.614,0l3.496,3.493C14.058,11.167,14.061,11.443,13.889,11.611 M18.25,10c0,4.558-3.693,8.25-8.25,8.25c-4.557,0-8.25-3.692-8.25-8.25c0-4.557,3.693-8.25,8.25-8.25C14.557,1.75,18.25,5.443,18.25,10 M17.383,10c0-4.07-3.312-7.382-7.383-7.382S2.618,5.93,2.618,10S5.93,17.381,10,17.381S17.383,14.07,17.383,10"></path>
+                </svg>
+            </a>
+         
+    </div>
+</header>
+
+
+    <main class="main">
+    <div class="post-title">
+    <h1 class="post-title__text">
+        VPS 服务器搭建 SSR | 酸酸乳教程
+    </h1>
+    <div class="post-meta">
+        
+            <a href="/archives/2020/04/" class="button" style="color: #808080;">
+    2020-04-22
+</a>
+        
+        
+            
+    &nbsp;·&nbsp;<a href="/categories/技术/" class="button">技术</a>
+
+    &nbsp;·&nbsp;<a href="/categories/技术/资源/" class="button">资源</a>
+
+ 
+        
+        
+     
+ 
+
+  
+    </div>
+</div>
+<div class="post content-box">
+    <div class="post__header">
+        
+             
+        
+    </div>
+    <div class="post__content">
+        <div class="markdown-body">
+            <p>给大家分享一下 VPS 服务器搭建 SSR | 酸酸乳教程 ，非常简单易懂，10 分钟搭建自己的 SSR 服务。当然这个教程只是做技术交流学习使用，请勿滥用，禁止一切违反国家法律的行为。</p>
+<h3 id="ShadowsocksR-搭建流程"><a href="#ShadowsocksR-搭建流程" class="headerlink" title="ShadowsocksR 搭建流程"></a>ShadowsocksR 搭建流程</h3><ol>
+<li>购买国外 VPS 服务器</li>
+<li>在服务器端安装 SSR 服务</li>
+<li>用 Shadowsocks 客户端连接</li>
+</ol>
+<h3 id="Step-1-：服务器选购"><a href="#Step-1-：服务器选购" class="headerlink" title="Step 1 ：服务器选购"></a>Step 1 ：服务器选购</h3><p>博主这里购买的是一台配置非常低的服务器，毕竟只是学习使用。大家如果用于学习可以去 <strong><a href="https://billing.virmach.com/" target="_blank" rel="noopener">virmach</a></strong> 购买同款 VPS，价格大概 1.25$ （9￥） / 月。主要是可以支付宝付款，很方便。购置教程 详情参考 <a href="https://www.bilibili.com/video/av65426477?t=491" target="_blank" rel="noopener">B 站视频</a>。主要配置如下：</p>
+<p>is-resized</p>
+<p>[<img src="https://yremp.live/wp-content/uploads/2019/09/image-11.png" alt="img"></p>
+<h3 id="Step-2：服务端安装-SSR"><a href="#Step-2：服务端安装-SSR" class="headerlink" title="Step 2：服务端安装 SSR"></a>Step 2：服务端安装 SSR</h3><p>推荐选用 CentOS 系统的 VPS，这样后面很方便。</p>
+<h4 id="下载文件"><a href="#下载文件" class="headerlink" title="下载文件"></a>下载文件</h4><p>首先用 SSH 工具（推荐 <a href="https://mobaxterm.mobatek.net/" target="_blank" rel="noopener">MobaXterm</a> ，支持粘贴复制以及 FTP 等等功能）连接到 VPS，执行</p>
+<pre><code>wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+</code></pre><p>然后继续执行</p>
+<pre><code>chmod +x shadowsocks-all.sh
+</code></pre><p>执行以下命令，开始配置 SSR 信息</p>
+<pre><code>./shadowsocks-all.sh 2&gt;&amp;1 | tee shadowsocks-all.log
+</code></pre><p>开始配置 SSR 信息</p>
+<h4 id="选择版本"><a href="#选择版本" class="headerlink" title="选择版本"></a>选择版本</h4><p>is-resized</p>
+<p><img src="https://yremp.live/wp-content/uploads/2019/09/image-2.png" alt="VPS搭建SSR服务器教程"></p>
+<p>推荐选择 <strong>ShadowsocksR</strong>，输入 <strong>2</strong> 按下回车即可</p>
+<h4 id="SSR-密码"><a href="#SSR-密码" class="headerlink" title="SSR 密码"></a>SSR 密码</h4><p>is-resized</p>
+<p><img src="https://yremp.live/wp-content/uploads/2019/09/image-3.png" alt="VPS搭建SSR服务器教程"></p>
+<p>自定义 SSR 连接密码</p>
+<h4 id="选择服务端口"><a href="#选择服务端口" class="headerlink" title="选择服务端口"></a>选择服务端口</h4><p>is-resized</p>
+<p><img src="https://yremp.live/wp-content/uploads/2019/09/image-4.png" alt="VPS搭建SSR服务器教程"></p>
+<p>这个基本上任意</p>
+<h4 id="选择加密方式"><a href="#选择加密方式" class="headerlink" title="选择加密方式"></a>选择加密方式</h4><p>is-resized</p>
+<p><img src="https://yremp.live/wp-content/uploads/2019/09/image-5.png" alt="VPS搭建SSR服务器教程"></p>
+<p>任选一种即可</p>
+<h4 id="选择-SSR-协议"><a href="#选择-SSR-协议" class="headerlink" title="选择 SSR 协议"></a>选择 SSR 协议</h4><p>is-resized</p>
+<p><img src="https://yremp.live/wp-content/uploads/2019/09/image-6.png" alt="VPS搭建SSR服务器教程"></p>
+<h4 id="混淆"><a href="#混淆" class="headerlink" title="混淆"></a>混淆</h4><p>is-resized</p>
+<p><img src="https://yremp.live/wp-content/uploads/2019/09/image-8.png" alt="VPS搭建SSR服务器教程"></p>
+<p>任意选择一种，然后任意键开始安装，安装完成后会给你一张二维码（会给你二维码保存路径），SSR 客户端支持扫码直接添加代理。</p>
+<p>is-resized</p>
+<p><img src="https://yremp.live/wp-content/uploads/2019/09/image-12-1024x350.png" alt="img"></p>
+<h3 id="客户端连接"><a href="#客户端连接" class="headerlink" title="客户端连接"></a>客户端连接</h3><h4 id="IOS"><a href="#IOS" class="headerlink" title="IOS"></a>IOS</h4><p>我个人用的是 Potatso Lite 这款软件，需要美国 ID，在美国 APP Store 下载，连接示例如下：（也可以扫描二维码直接添加）</p>
+<p><img src="https://www.yremp.live/images/2019/09/05/QQ20190905142433522a2.png" alt="VPS搭建SSR服务器教程"></p>
+<h4 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a>Windows</h4><p>下载小飞机（ShadowsocksR），这个网上很多</p>
+<p>is-resized</p>
+<p><img src="https://yremp.live/wp-content/uploads/2019/09/image-10.png" alt="img"></p>
+<p>如上配置即可连接你的 SSR 服务</p>
+<h3 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h3><p><strong>严重警告，此教程仅仅用于网络技术学习使用，请勿滥用或者随意分享，不得违反国家法律。如有违反，请自行承担带来的法律责任，与本站无关。</strong></p>
+
+        </div>
+    </div>
+    
+        
+    <div class="post__license">
+        <p>
+            <strong>本文作者：ChrAlpha</strong>
+        </p>
+        
+            <p>
+                <strong>
+                    <p>文章默认使用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a> 协议进行许可，使用时请注意遵守协议。</p>
+
+                </strong>
+            </p>
+        
+        
+            <p>
+                <strong>
+                    本文链接：
+                </strong>
+                <a href="https://blog.ninglans.top/posts/56653/">https://blog.ninglans.top/posts/56653/</a>
+            </p>
+        
+    </div>
+ 
+    
+    
+        <div class="post-meta post-footer__meta">
+    <p>
+        最后更新于：2020-04-22
+    </p>
+</div> 
+    
+    
+        <div class="post-cats post-card__cats">
+    
+        <a href="/categories/技术/" class="post-cats__link button">技术</a>
+    
+        <a href="/categories/技术/资源/" class="post-cats__link button">资源</a>
+    
+</div>
+
+<div class="post-tags post-card__tags">
+    
+</div> 
+     
+</div>
+<br>
+
+
+</main>
+<footer class="footer">
+     
+
+
+     
+  
+    
+        
+            <p>Copyright © 2020 </p>
+
+        
+            <p>Powered by <a href="https://hexo.io">Hexo</a> | Theme - <a href="https://github.com/ChrAlpha/hexo-theme-cards">Cards</a></p>
+
+        
+    
+</footer>
+
+
+  </div>
+  <!-- lazyload -->
+
+    
+        <script defer src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+    
+    <script>
+    window.lazyLoadOptions = {
+        elements_selector: ".lazyload",
+        threshold: 0
+    };
+    </script>
+
+
+ 
+
+ 
+
+ 
+
+  
+
+<!-- jQuery -->
+ 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" crossorigin="anonymous"></script>   
+ 
+
+<!-- fancybox -->
+
+    <script async>
+    (() => {
+        var d = document.createElement('link');
+        d.rel = 'stylesheet';
+        d.href = 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css';
+        d.crossOrigin = 'annoymous';
+        d.media = 'screen';
+        document.head.appendChild(d);
+    })();
+</script>
+<script async src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script async>
+    let lazyloadT = Boolean(''),
+        auto_fancybox = Boolean('true')
+    if(auto_fancybox) {
+        $(".post__content").find('img').each(function () {
+            var element = document.createElement("a");
+            $(element).attr("data-fancybox", "gallery");
+            $(element).attr("href", $(this).attr("src"));
+            if (lazyloadT) {
+                $(element).attr("href", $(this).attr("data-srcset"));
+            }
+            $(this).wrap(element);
+        });
+    } else {
+        $(".post__content").find("fancybox").find('img').each(function () {
+            var element = document.createElement("a");
+            $(element).attr("data-fancybox", "gallery");
+            $(element).attr("href", $(this).attr("src"));
+            if (lazyloadT) {
+                $(element).attr("href", $(this).attr("data-srcset"));
+            }
+            $(this).wrap(element);
+        });
+    }
+</script> 
+ 
+
+<!-- back to top -->
+ 
+    <script src="/js/b2t.js"></script> 
+ 
+
+
+
+</body>
+</html>
