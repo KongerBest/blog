@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ninglans.top/links/index.html</loc>
+    
+    <lastmod>2020-04-27T01:36:32.522Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.ninglans.top/about/index.html</loc>
     
     <lastmod>2020-04-26T13:49:55.813Z</lastmod>
@@ -152,13 +159,6 @@
     <loc>https://blog.ninglans.top/posts/13009/</loc>
     
     <lastmod>2020-04-20T12:52:03.652Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.ninglans.top/links/index.html</loc>
-    
-    <lastmod>2020-04-20T11:28:31.770Z</lastmod>
     
   </url>
   
