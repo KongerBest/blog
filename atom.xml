@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ninglans.top/"/>
-  <updated>2020-04-22T12:55:13.975Z</updated>
+  <updated>2020-04-30T01:49:41.378Z</updated>
   <id>https://blog.ninglans.top/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的博客又双叒叕换主题了</title>
+    <link href="https://blog.ninglans.top/posts/26484/"/>
+    <id>https://blog.ninglans.top/posts/26484/</id>
+    <published>2020-04-30T01:31:35.000Z</published>
+    <updated>2020-04-30T01:49:41.378Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;如你所见&lt;br&gt;我的博客又双叒叕换了主题呢~&lt;br&gt;这次更换主题，思考了很久&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;简洁的博客其实比加一堆的特效更多人看&lt;/p&gt;
+&lt;p&gt;文章才是正餐，特效都是小菜，没有正餐多少小菜也白搭&lt;/p&gt;
+&lt;p&gt;折腾特效，折腾评论，总是会忘了文章才是
+        
+      
+    
+    </summary>
+    
+      <category term="生活" scheme="https://blog.ninglans.top/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="随想" scheme="https://blog.ninglans.top/categories/%E7%94%9F%E6%B4%BB/%E9%9A%8F%E6%83%B3/"/>
+    
+    
+      <category term="公告" scheme="https://blog.ninglans.top/tags/%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>VPS 服务器搭建 SSR | 酸酸乳教程</title>
@@ -403,24 +435,6 @@
     </summary>
     
       <category term="技术" scheme="https://blog.ninglans.top/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>测试</title>
-    <link href="https://blog.ninglans.top/posts/37773/"/>
-    <id>https://blog.ninglans.top/posts/37773/</id>
-    <published>2020-01-12T05:52:20.000Z</published>
-    <updated>2020-04-20T12:52:25.835Z</updated>
-    
-    <summary type="html">
-    
-      庆祝，我的hexo博客搭建成功！
-    
-    </summary>
-    
-      <category term="生活" scheme="https://blog.ninglans.top/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
   </entry>
