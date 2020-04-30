@@ -350,6 +350,7 @@ figure table {
   padding: 0;
   max-width: 100%;
   border: 1px solid var(--border-color);
+  background-color: var(--bg-code);
   border-radius: 3px;
 }
 figure table th {
@@ -361,6 +362,7 @@ figure table tr {
 }
 figure table td.gutter {
   display: flex !important;
+  background-color: var(--bg-code);
   text-align: right;
   border-right: 1px solid var(--border-color);
   position: sticky;
@@ -376,6 +378,7 @@ pre {
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
+  background-color: var(--bg-code);
   border-radius: 3px;
 }
 .task-list-item {
@@ -756,7 +759,7 @@ body {
   --bg-code: #f8f8f8;
   --body-color: #444;
   --title-color: #50596c;
-  --link-color: #eb5757;
+  --link-color: #ffb90f;
   --border-color: rgba(0,0,0,0.1);
   --space: 3.5rem;
   --content-width: 800px;
