@@ -579,14 +579,14 @@ table th:not(.code):not(.gutter) {
 }
 .archives .archives-item .archives-icon {
   border-radius: 50%;
-  color: #fff;
+  color: var(--main-color);
   display: block;
   height: 1.2rem;
   text-align: center;
   width: 1.2rem;
 }
 .archives .archives-item .archives-icon.icon-lg {
-  background: #ffb90f;
+  background: var(--main-color);
   line-height: 1.2rem;
 }
 .archives .archives-item .archives-content {
@@ -595,7 +595,7 @@ table th:not(.code):not(.gutter) {
   padding: 2px 0 2px 0.8rem;
 }
 .archives .archives-item .archives-icon::before {
-  border: 0.1rem solid #ffb90f;
+  border: 0.1rem solid var(--main-color);
   border-radius: 50%;
   content: "";
   display: block;
@@ -606,8 +606,8 @@ table th:not(.code):not(.gutter) {
   width: 0.4rem;
 }
 .archives .archives-item:hover .archives-icon::before {
-  border: 0.1rem solid #ffb90f;
-  background: #ffb90f;
+  border: 0.1rem solid var(--main-color);
+  background: var(--main-color);
   border-radius: 50%;
   content: "";
   display: block;
@@ -646,10 +646,10 @@ table th:not(.code):not(.gutter) {
 .author .cover-menus .cover-menu {
   text-decoration: none;
   padding: 0.325rem 0.4rem;
-  color: #ffb90f;
+  color: var(--color-link);
 }
 .author .cover-menus .cover-menu:hover {
-  color: #eb5757;
+  color: car(--color-link-hover);
 }
 .header {
   display: flex;
@@ -752,6 +752,7 @@ p {
   font-family: rubik, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, pingfang sc, source han sans sc, noto sans cjk sc, sarasa gothic sc, microsoft yahei, sans-serif, Apple Color Emoji, Segoe UI Emoji, Varela Round;
 }
 body {
+  --main-color: #ffb90f;
   --bg-color: #f4f4f4;
   --bg-content-color: #fff;
   --bg-tag-color: #f4f4f4;
@@ -760,6 +761,7 @@ body {
   --body-color: #444;
   --title-color: #50596c;
   --link-color: #ffb90f;
+  --link-color-hover: #eb5757;
   --border-color: rgba(0,0,0,0.1);
   --space: 3.5rem;
   --content-width: 800px;
