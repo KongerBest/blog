@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.ninglans.top/"/>
-  <updated>2020-04-30T01:50:01.060Z</updated>
+  <updated>2020-05-08T12:50:21.737Z</updated>
   <id>https://blog.ninglans.top/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>渐变配色无从下手？你需要他</title>
+    <link href="https://blog.ninglans.top/posts/4588/"/>
+    <id>https://blog.ninglans.top/posts/4588/</id>
+    <published>2020-05-08T12:42:48.000Z</published>
+    <updated>2020-05-08T12:50:21.737Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;!-- build time:Fri May 08 2020 20:50:38 GMT+0800 (GMT+08:00)
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://blog.ninglans.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="资源" scheme="https://blog.ninglans.top/categories/%E6%8A%80%E6%9C%AF/%E8%B5%84%E6%BA%90/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>我的博客又双叒叕换主题了</title>
@@ -29,7 +55,7 @@
       
         
         
-          &lt;!-- build time:Fri May 08 2020 20:19:56 GMT+0800 (GMT+08:00)
+          &lt;!-- build time:Fri May 08 2020 20:50:38 GMT+0800 (GMT+08:00)
         
       
     
@@ -139,7 +165,7 @@
       
         
         
-          &lt;!-- build time:Fri May 08 2020 20:19:56 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;今天介绍一款仿 macOS UI 的软件：&lt;/p&gt;&lt;p&gt;——MyFinder、MyDock。&lt;/p&gt;&lt;p&gt;适用于装逼或是真的喜欢 macOS
+          &lt;!-- build time:Fri May 08 2020 20:50:38 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;今天介绍一款仿 macOS UI 的软件：&lt;/p&gt;&lt;p&gt;——MyFinder、MyDock。&lt;/p&gt;&lt;p&gt;适用于装逼或是真的喜欢 macOS
         
       
     
@@ -165,7 +191,7 @@
       
         
         
-          &lt;!-- build time:Fri May 08 2020 20:19:56 GMT+0800 (GMT+08:00)
+          &lt;!-- build time:Fri May 08 2020 20:50:38 GMT+0800 (GMT+08:00)
         
       
     
@@ -189,7 +215,7 @@
       
         
         
-          &lt;!-- build time:Fri May 08 2020 20:19:56 GMT+0800 (GMT+08:00) --&gt;&lt;h1
+          &lt;!-- build time:Fri May 08 2020 20:50:38 GMT+0800 (GMT+08:00) --&gt;&lt;h1
         
       
     
@@ -251,7 +277,7 @@
       
         
         
-          &lt;!-- build time:Fri May 08 2020 20:19:56 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+          &lt;!-- build time:Fri May 08 2020 20:50:38 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
         
       
     
@@ -351,7 +377,7 @@
       
         
         
-          &lt;!-- build time:Fri May 08 2020 20:19:56 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;Hexo 约有二十个命令，但普通用户经常使用的大概只有下列几个:&lt;/p&gt;&lt;h2 id=&quot;hexo-s&quot;&gt;&lt;a href=&quot;#hexo-s&quot;
+          &lt;!-- build time:Fri May 08 2020 20:50:38 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;Hexo 约有二十个命令，但普通用户经常使用的大概只有下列几个:&lt;/p&gt;&lt;h2 id=&quot;hexo-s&quot;&gt;&lt;a href=&quot;#hexo-s&quot;
         
       
     
@@ -414,26 +440,6 @@
     </summary>
     
       <category term="转载" scheme="https://blog.ninglans.top/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Pure主题使用指南</title>
-    <link href="https://blog.ninglans.top/posts/44804/"/>
-    <id>https://blog.ninglans.top/posts/44804/</id>
-    <published>2020-01-16T04:39:21.000Z</published>
-    <updated>2020-04-20T12:56:03.811Z</updated>
-    
-    <summary type="html">
-    
-      pure
-    
-    </summary>
-    
-      <category term="资源" scheme="https://blog.ninglans.top/categories/%E8%B5%84%E6%BA%90/"/>
-    
-      <category term="转载" scheme="https://blog.ninglans.top/categories/%E8%B5%84%E6%BA%90/%E8%BD%AC%E8%BD%BD/"/>
     
     
   </entry>
